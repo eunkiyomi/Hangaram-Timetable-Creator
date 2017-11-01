@@ -9,6 +9,7 @@
   "author": "ppyap, freezens",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "html-table-to-json": "^0.2.1"
   }
 }
