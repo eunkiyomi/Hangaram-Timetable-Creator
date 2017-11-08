@@ -1,0 +1,3893 @@
+{
+  "1": {
+    "MONDAY": {
+      "1": [
+        {
+          "subject": "수리논술A",
+          "teacher": "강철"
+        },
+        {
+          "subject": "독서A",
+          "teacher": "승철"
+        },
+        {
+          "subject": "독서B",
+          "teacher": "성조"
+        }
+      ],
+      "2": [
+        {
+          "subject": "영어II",
+          "teacher": "경진"
+        }
+      ],
+      "3": [
+        {
+          "subject": "연극제작실습",
+          "teacher": "주희"
+        },
+        {
+          "subject": "제과제빵C",
+          "teacher": "정희"
+        }
+      ],
+      "4": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "정자"
+        }
+      ],
+      "5": [
+        {
+          "subject": "미적분IIA",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리B",
+          "teacher": "철진"
+        },
+        {
+          "subject": "경제A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IA",
+          "teacher": "정영"
+        },
+        {
+          "subject": "한문I",
+          "teacher": "명옥"
+        }
+      ],
+      "6": [
+        {
+          "subject": "스포츠문화A",
+          "teacher": "미진"
+        },
+        {
+          "subject": "스포츠과학A",
+          "teacher": "병호"
+        }
+      ]
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "제과제빵A",
+          "teacher": "정희"
+        }
+      ],
+      "2": [
+        {
+          "subject": "미적분IIB",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IA",
+          "teacher": "경란"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "지민"
+        },
+        {
+          "subject": "일본어IB",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IB",
+          "teacher": "사라"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IIC",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "경제B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "화학IB",
+          "teacher": "경란생명과학IC"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IC",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IC",
+          "teacher": "사라"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리B",
+          "teacher": "인선"
+        },
+        {
+          "subject": "세계지리D",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "경란"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "화학II",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학ID",
+          "teacher": "정하"
+        },
+        {
+          "subject": "중국어ID",
+          "teacher": "사라"
+        }
+      ],
+      "5": [
+        {
+          "subject": "미적분IIA",
+          "teacher": "성훈"
+        }
+      ],
+      "6": [
+        {
+          "subject": "영어II",
+          "teacher": "현규"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "혜원"
+        }
+      ],
+      "2": [
+        {
+          "subject": "미적분IIA",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리B",
+          "teacher": "철진"
+        },
+        {
+          "subject": "경제A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IA",
+          "teacher": "정영"
+        },
+        {
+          "subject": "한문I",
+          "teacher": "명옥"
+        }
+      ],
+      "3": [
+        {
+          "subject": "확률과통계",
+          "teacher": "승철"
+        }
+      ],
+      "4": [
+        {
+          "subject": "미적분IID",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "생활과윤리A",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "세계지리C",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학IC",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어ID",
+          "teacher": "정영"
+        }
+      ],
+      "5": [
+        {
+          "subject": "영어II",
+          "teacher": "경진"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "진로탐색활동",
+          "teacher": "지은"
+        }
+      ],
+      "2": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "정자"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IIB",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IA",
+          "teacher": "경란"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "지민"
+        },
+        {
+          "subject": "일본어IB",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IB",
+          "teacher": "사라"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리B",
+          "teacher": "인선"
+        },
+        {
+          "subject": "세계지리D",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "경란"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "화학II",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학ID",
+          "teacher": "정하"
+        },
+        {
+          "subject": "중국어ID",
+          "teacher": "사라"
+        }
+      ],
+      "5": [
+        {
+          "subject": "미적분IIC",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "경제B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "화학IB",
+          "teacher": "경란생명과학IC"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IC",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IC",
+          "teacher": "사라"
+        }
+      ],
+      "6": [
+        {
+          "subject": "스포츠문화A",
+          "teacher": "미진"
+        },
+        {
+          "subject": "스포츠과학A",
+          "teacher": "병호"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "미적분IIA",
+          "teacher": "성훈"
+        }
+      ],
+      "2": [
+        {
+          "subject": "영화기술A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "제과제빵B",
+          "teacher": "정희"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IID",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "생활과윤리A",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "세계지리C",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학IC",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어ID",
+          "teacher": "정영"
+        }
+      ],
+      "4": [
+        {
+          "subject": "확률과통계",
+          "teacher": "승철"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  },
+  "2": {
+    "MONDAY": {
+      "1": [
+        {
+          "subject": "수리논술A",
+          "teacher": "강철"
+        },
+        {
+          "subject": "독서A",
+          "teacher": "승철"
+        },
+        {
+          "subject": "독서B",
+          "teacher": "성조"
+        }
+      ],
+      "2": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "정자"
+        }
+      ],
+      "3": [
+        {
+          "subject": "연극제작실습",
+          "teacher": "주희"
+        },
+        {
+          "subject": "제과제빵C",
+          "teacher": "정희"
+        }
+      ],
+      "4": [
+        {
+          "subject": "영어II",
+          "teacher": "경진"
+        }
+      ],
+      "5": [
+        {
+          "subject": "미적분IIA",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리B",
+          "teacher": "철진"
+        },
+        {
+          "subject": "경제A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IA",
+          "teacher": "정영"
+        },
+        {
+          "subject": "한문I",
+          "teacher": "명옥"
+        }
+      ],
+      "6": [
+        {
+          "subject": "확률과통계",
+          "teacher": "승철"
+        }
+      ]
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "제과제빵A",
+          "teacher": "정희"
+        }
+      ],
+      "2": [
+        {
+          "subject": "미적분IIB",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IA",
+          "teacher": "경란"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "지민"
+        },
+        {
+          "subject": "일본어IB",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IB",
+          "teacher": "사라"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IIC",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "경제B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "화학IB",
+          "teacher": "경란생명과학IC"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IC",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IC",
+          "teacher": "사라"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리B",
+          "teacher": "인선"
+        },
+        {
+          "subject": "세계지리D",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "경란"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "화학II",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학ID",
+          "teacher": "정하"
+        },
+        {
+          "subject": "중국어ID",
+          "teacher": "사라"
+        }
+      ],
+      "5": [
+        {
+          "subject": "진로탐색활동",
+          "teacher": "명옥"
+        }
+      ],
+      "6": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "혜원"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "영어II",
+          "teacher": "현규"
+        }
+      ],
+      "2": [
+        {
+          "subject": "미적분IIA",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리B",
+          "teacher": "철진"
+        },
+        {
+          "subject": "경제A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IA",
+          "teacher": "정영"
+        },
+        {
+          "subject": "한문I",
+          "teacher": "명옥"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IIB",
+          "teacher": "성훈"
+        }
+      ],
+      "4": [
+        {
+          "subject": "미적분IID",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "생활과윤리A",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "세계지리C",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학IC",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어ID",
+          "teacher": "정영"
+        }
+      ],
+      "5": [
+        {
+          "subject": "스포츠문화B",
+          "teacher": "미진"
+        },
+        {
+          "subject": "스포츠과학B",
+          "teacher": "병호"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "확률과통계",
+          "teacher": "승철"
+        }
+      ],
+      "2": [
+        {
+          "subject": "영어II",
+          "teacher": "경진"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IIB",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IA",
+          "teacher": "경란"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "지민"
+        },
+        {
+          "subject": "일본어IB",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IB",
+          "teacher": "사라"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리B",
+          "teacher": "인선"
+        },
+        {
+          "subject": "세계지리D",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "경란"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "화학II",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학ID",
+          "teacher": "정하"
+        },
+        {
+          "subject": "중국어ID",
+          "teacher": "사라"
+        }
+      ],
+      "5": [
+        {
+          "subject": "미적분IIC",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "경제B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "화학IB",
+          "teacher": "경란생명과학IC"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IC",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IC",
+          "teacher": "사라"
+        }
+      ],
+      "6": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "혜원"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "스포츠문화B",
+          "teacher": "미진"
+        },
+        {
+          "subject": "스포츠과학B",
+          "teacher": "병호"
+        }
+      ],
+      "2": [
+        {
+          "subject": "영화기술A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "제과제빵B",
+          "teacher": "정희"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IID",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "생활과윤리A",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "세계지리C",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학IC",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어ID",
+          "teacher": "정영"
+        }
+      ],
+      "4": [
+        {
+          "subject": "미적분IIB",
+          "teacher": "성훈"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  },
+  "3": {
+    "MONDAY": {
+      "1": [
+        {
+          "subject": "인문논술A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "독서C",
+          "teacher": "정영"
+        }
+      ],
+      "2": [
+        {
+          "subject": "미적분I",
+          "teacher": "성훈"
+        }
+      ],
+      "3": [
+        {
+          "subject": "연극제작실습",
+          "teacher": "주희"
+        },
+        {
+          "subject": "제과제빵C",
+          "teacher": "정희"
+        }
+      ],
+      "4": [
+        {
+          "subject": "진로탐색활동",
+          "teacher": "지은"
+        }
+      ],
+      "5": [
+        {
+          "subject": "미적분IIA",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리B",
+          "teacher": "철진"
+        },
+        {
+          "subject": "경제A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IA",
+          "teacher": "정영"
+        },
+        {
+          "subject": "한문I",
+          "teacher": "명옥"
+        }
+      ],
+      "6": [
+        {
+          "subject": "영어II",
+          "teacher": "현규"
+        }
+      ]
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "정자"
+        }
+      ],
+      "2": [
+        {
+          "subject": "미적분IIB",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IA",
+          "teacher": "경란"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "지민"
+        },
+        {
+          "subject": "일본어IB",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IB",
+          "teacher": "사라"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IIC",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "경제B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "화학IB",
+          "teacher": "경란생명과학IC"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IC",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IC",
+          "teacher": "사라"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리B",
+          "teacher": "인선"
+        },
+        {
+          "subject": "세계지리D",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "경란"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "화학II",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학ID",
+          "teacher": "정하"
+        },
+        {
+          "subject": "중국어ID",
+          "teacher": "사라"
+        }
+      ],
+      "5": [
+        {
+          "subject": "세계지리A",
+          "teacher": "철진"
+        },
+        {
+          "subject": "중국어IA",
+          "teacher": "사라"
+        }
+      ],
+      "6": []
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "미적분I",
+          "teacher": "성훈"
+        }
+      ],
+      "2": [
+        {
+          "subject": "미적분IIA",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리B",
+          "teacher": "철진"
+        },
+        {
+          "subject": "경제A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IA",
+          "teacher": "정영"
+        },
+        {
+          "subject": "한문I",
+          "teacher": "명옥"
+        }
+      ],
+      "3": [
+        {
+          "subject": "영어II",
+          "teacher": "경진"
+        }
+      ],
+      "4": [
+        {
+          "subject": "미적분IID",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "생활과윤리A",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "세계지리C",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학IC",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어ID",
+          "teacher": "정영"
+        }
+      ],
+      "5": [
+        {
+          "subject": "스포츠문화B",
+          "teacher": "미진"
+        },
+        {
+          "subject": "스포츠과학B",
+          "teacher": "병호"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "세계지리A",
+          "teacher": "철진"
+        },
+        {
+          "subject": "중국어IA",
+          "teacher": "사라"
+        }
+      ],
+      "2": [
+        {
+          "subject": "영어II",
+          "teacher": "현규"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IIB",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IA",
+          "teacher": "경란"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "지민"
+        },
+        {
+          "subject": "일본어IB",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IB",
+          "teacher": "사라"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리B",
+          "teacher": "인선"
+        },
+        {
+          "subject": "세계지리D",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "경란"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "화학II",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학ID",
+          "teacher": "정하"
+        },
+        {
+          "subject": "중국어ID",
+          "teacher": "사라"
+        }
+      ],
+      "5": [
+        {
+          "subject": "미적분IIC",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "경제B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "화학IB",
+          "teacher": "경란생명과학IC"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IC",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IC",
+          "teacher": "사라"
+        }
+      ],
+      "6": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "정자"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "스포츠문화B",
+          "teacher": "미진"
+        },
+        {
+          "subject": "스포츠과학B",
+          "teacher": "병호"
+        }
+      ],
+      "2": [
+        {
+          "subject": "영화기술A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "제과제빵B",
+          "teacher": "정희"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IID",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "생활과윤리A",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "세계지리C",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학IC",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어ID",
+          "teacher": "정영"
+        }
+      ],
+      "4": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "혜원"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  },
+  "4": {
+    "MONDAY": {
+      "1": [
+        {
+          "subject": "인문논술A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "독서C",
+          "teacher": "정영"
+        }
+      ],
+      "2": [
+        {
+          "subject": "스포츠문화C",
+          "teacher": "미진"
+        },
+        {
+          "subject": "스포츠과학C",
+          "teacher": "병호"
+        }
+      ],
+      "3": [
+        {
+          "subject": "연극제작실습",
+          "teacher": "주희"
+        },
+        {
+          "subject": "제과제빵C",
+          "teacher": "정희"
+        }
+      ],
+      "4": [
+        {
+          "subject": "진로탐색활동",
+          "teacher": "명옥"
+        }
+      ],
+      "5": [
+        {
+          "subject": "미적분IIA",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리B",
+          "teacher": "철진"
+        },
+        {
+          "subject": "경제A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IA",
+          "teacher": "정영"
+        },
+        {
+          "subject": "한문I",
+          "teacher": "명옥"
+        }
+      ],
+      "6": []
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "영어II",
+          "teacher": "경진"
+        }
+      ],
+      "2": [
+        {
+          "subject": "미적분IIB",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IA",
+          "teacher": "경란"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "지민"
+        },
+        {
+          "subject": "일본어IB",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IB",
+          "teacher": "사라"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IIC",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "경제B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "화학IB",
+          "teacher": "경란생명과학IC"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IC",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IC",
+          "teacher": "사라"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리B",
+          "teacher": "인선"
+        },
+        {
+          "subject": "세계지리D",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "경란"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "화학II",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학ID",
+          "teacher": "정하"
+        },
+        {
+          "subject": "중국어ID",
+          "teacher": "사라"
+        }
+      ],
+      "5": [
+        {
+          "subject": "세계지리A",
+          "teacher": "철진"
+        },
+        {
+          "subject": "중국어IA",
+          "teacher": "사라"
+        }
+      ],
+      "6": [
+        {
+          "subject": "미적분I",
+          "teacher": "윤미"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "영어II",
+          "teacher": "경진"
+        }
+      ],
+      "2": [
+        {
+          "subject": "미적분IIA",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리B",
+          "teacher": "철진"
+        },
+        {
+          "subject": "경제A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IA",
+          "teacher": "정영"
+        },
+        {
+          "subject": "한문I",
+          "teacher": "명옥"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분I",
+          "teacher": "윤미"
+        }
+      ],
+      "4": [
+        {
+          "subject": "미적분IID",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "생활과윤리A",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "세계지리C",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학IC",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어ID",
+          "teacher": "정영"
+        }
+      ],
+      "5": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "혜원"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "세계지리A",
+          "teacher": "철진"
+        },
+        {
+          "subject": "중국어IA",
+          "teacher": "사라"
+        }
+      ],
+      "2": [
+        {
+          "subject": "스포츠문화C",
+          "teacher": "미진"
+        },
+        {
+          "subject": "스포츠과학C",
+          "teacher": "병호"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IIB",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IA",
+          "teacher": "경란"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "지민"
+        },
+        {
+          "subject": "일본어IB",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IB",
+          "teacher": "사라"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리B",
+          "teacher": "인선"
+        },
+        {
+          "subject": "세계지리D",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "경란"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "화학II",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학ID",
+          "teacher": "정하"
+        },
+        {
+          "subject": "중국어ID",
+          "teacher": "사라"
+        }
+      ],
+      "5": [
+        {
+          "subject": "미적분IIC",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "경제B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "화학IB",
+          "teacher": "경란생명과학IC"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IC",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IC",
+          "teacher": "사라"
+        }
+      ],
+      "6": [
+        {
+          "subject": "제과제빵D",
+          "teacher": "정희"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "영어II",
+          "teacher": "현규"
+        }
+      ],
+      "2": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "혜원"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IID",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "생활과윤리A",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "세계지리C",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학IC",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어ID",
+          "teacher": "정영"
+        }
+      ],
+      "4": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "정자"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  },
+  "5": {
+    "MONDAY": {
+      "1": [
+        {
+          "subject": "영어II",
+          "teacher": "경진"
+        }
+      ],
+      "2": [
+        {
+          "subject": "스포츠문화C",
+          "teacher": "미진"
+        },
+        {
+          "subject": "스포츠과학C",
+          "teacher": "병호"
+        }
+      ],
+      "3": [
+        {
+          "subject": "연극제작실습",
+          "teacher": "주희"
+        },
+        {
+          "subject": "제과제빵C",
+          "teacher": "정희"
+        }
+      ],
+      "4": [
+        {
+          "subject": "확률과통계",
+          "teacher": "승철"
+        }
+      ],
+      "5": [
+        {
+          "subject": "미적분IIA",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리B",
+          "teacher": "철진"
+        },
+        {
+          "subject": "경제A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IA",
+          "teacher": "정영"
+        },
+        {
+          "subject": "한문I",
+          "teacher": "명옥"
+        }
+      ],
+      "6": [
+        {
+          "subject": "미적분IIC",
+          "teacher": "윤미"
+        }
+      ]
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "혜원"
+        }
+      ],
+      "2": [
+        {
+          "subject": "미적분IIB",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IA",
+          "teacher": "경란"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "지민"
+        },
+        {
+          "subject": "일본어IB",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IB",
+          "teacher": "사라"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IIC",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "경제B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "화학IB",
+          "teacher": "경란생명과학IC"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IC",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IC",
+          "teacher": "사라"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리B",
+          "teacher": "인선"
+        },
+        {
+          "subject": "세계지리D",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "경란"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "화학II",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학ID",
+          "teacher": "정하"
+        },
+        {
+          "subject": "중국어ID",
+          "teacher": "사라"
+        }
+      ],
+      "5": [
+        {
+          "subject": "확률과통계",
+          "teacher": "승철"
+        }
+      ],
+      "6": [
+        {
+          "subject": "영어II",
+          "teacher": "경진"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "미적분IIC",
+          "teacher": "윤미"
+        }
+      ],
+      "2": [
+        {
+          "subject": "미적분IIA",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리B",
+          "teacher": "철진"
+        },
+        {
+          "subject": "경제A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IA",
+          "teacher": "정영"
+        },
+        {
+          "subject": "한문I",
+          "teacher": "명옥"
+        }
+      ],
+      "3": [
+        {
+          "subject": "진로탐색활동",
+          "teacher": "지은"
+        }
+      ],
+      "4": [
+        {
+          "subject": "미적분IID",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "생활과윤리A",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "세계지리C",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학IC",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어ID",
+          "teacher": "정영"
+        }
+      ],
+      "5": [
+        {
+          "subject": "영화기술B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "제과제빵E",
+          "teacher": "정희"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "정자"
+        }
+      ],
+      "2": [
+        {
+          "subject": "스포츠문화C",
+          "teacher": "미진"
+        },
+        {
+          "subject": "스포츠과학C",
+          "teacher": "병호"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IIB",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IA",
+          "teacher": "경란"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "지민"
+        },
+        {
+          "subject": "일본어IB",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IB",
+          "teacher": "사라"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리B",
+          "teacher": "인선"
+        },
+        {
+          "subject": "세계지리D",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "경란"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "화학II",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학ID",
+          "teacher": "정하"
+        },
+        {
+          "subject": "중국어ID",
+          "teacher": "사라"
+        }
+      ],
+      "5": [
+        {
+          "subject": "미적분IIC",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "경제B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "화학IB",
+          "teacher": "경란생명과학IC"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IC",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IC",
+          "teacher": "사라"
+        }
+      ],
+      "6": [
+        {
+          "subject": "제과제빵D",
+          "teacher": "정희"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "혜원"
+        }
+      ],
+      "2": [
+        {
+          "subject": "수리논술B",
+          "teacher": "강철"
+        },
+        {
+          "subject": "독서D",
+          "teacher": "성조"
+        },
+        {
+          "subject": "독서E",
+          "teacher": "용수"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IID",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "생활과윤리A",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "세계지리C",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학IC",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어ID",
+          "teacher": "정영"
+        }
+      ],
+      "4": [
+        {
+          "subject": "영어II",
+          "teacher": "현규"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  },
+  "6": {
+    "MONDAY": {
+      "1": [
+        {
+          "subject": "영어II",
+          "teacher": "현규"
+        }
+      ],
+      "2": [
+        {
+          "subject": "미적분IID",
+          "teacher": "윤미"
+        }
+      ],
+      "3": [
+        {
+          "subject": "연극제작실습",
+          "teacher": "주희"
+        },
+        {
+          "subject": "제과제빵C",
+          "teacher": "정희"
+        }
+      ],
+      "4": [
+        {
+          "subject": "스포츠문화D",
+          "teacher": "미진"
+        },
+        {
+          "subject": "스포츠과학D",
+          "teacher": "병호"
+        }
+      ],
+      "5": [
+        {
+          "subject": "미적분IIA",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리B",
+          "teacher": "철진"
+        },
+        {
+          "subject": "경제A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IA",
+          "teacher": "정영"
+        },
+        {
+          "subject": "한문I",
+          "teacher": "명옥"
+        }
+      ],
+      "6": []
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "확률과통계",
+          "teacher": "승철"
+        }
+      ],
+      "2": [
+        {
+          "subject": "미적분IIB",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IA",
+          "teacher": "경란"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "지민"
+        },
+        {
+          "subject": "일본어IB",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IB",
+          "teacher": "사라"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IIC",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "경제B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "화학IB",
+          "teacher": "경란생명과학IC"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IC",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IC",
+          "teacher": "사라"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리B",
+          "teacher": "인선"
+        },
+        {
+          "subject": "세계지리D",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "경란"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "화학II",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학ID",
+          "teacher": "정하"
+        },
+        {
+          "subject": "중국어ID",
+          "teacher": "사라"
+        }
+      ],
+      "5": [
+        {
+          "subject": "스포츠문화D",
+          "teacher": "미진"
+        },
+        {
+          "subject": "스포츠과학D",
+          "teacher": "병호"
+        }
+      ],
+      "6": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "정자"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "진로탐색활동",
+          "teacher": "명옥"
+        }
+      ],
+      "2": [
+        {
+          "subject": "미적분IIA",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리B",
+          "teacher": "철진"
+        },
+        {
+          "subject": "경제A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IA",
+          "teacher": "정영"
+        },
+        {
+          "subject": "한문I",
+          "teacher": "명옥"
+        }
+      ],
+      "3": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "정자"
+        }
+      ],
+      "4": [
+        {
+          "subject": "미적분IID",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "생활과윤리A",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "세계지리C",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학IC",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어ID",
+          "teacher": "정영"
+        }
+      ],
+      "5": [
+        {
+          "subject": "영화기술B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "제과제빵E",
+          "teacher": "정희"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "미적분IID",
+          "teacher": "윤미"
+        }
+      ],
+      "2": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "혜원"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IIB",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IA",
+          "teacher": "경란"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "지민"
+        },
+        {
+          "subject": "일본어IB",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IB",
+          "teacher": "사라"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리B",
+          "teacher": "인선"
+        },
+        {
+          "subject": "세계지리D",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "경란"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "화학II",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학ID",
+          "teacher": "정하"
+        },
+        {
+          "subject": "중국어ID",
+          "teacher": "사라"
+        }
+      ],
+      "5": [
+        {
+          "subject": "미적분IIC",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "경제B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "화학IB",
+          "teacher": "경란생명과학IC"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IC",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IC",
+          "teacher": "사라"
+        }
+      ],
+      "6": [
+        {
+          "subject": "영어II",
+          "teacher": "현규"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "확률과통계",
+          "teacher": "승철"
+        }
+      ],
+      "2": [
+        {
+          "subject": "수리논술B",
+          "teacher": "강철"
+        },
+        {
+          "subject": "독서D",
+          "teacher": "성조"
+        },
+        {
+          "subject": "독서E",
+          "teacher": "용수"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IID",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "생활과윤리A",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "세계지리C",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학IC",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어ID",
+          "teacher": "정영"
+        }
+      ],
+      "4": [
+        {
+          "subject": "영어II",
+          "teacher": "경진"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  },
+  "7": {
+    "MONDAY": {
+      "1": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "정자"
+        }
+      ],
+      "2": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "혜원"
+        }
+      ],
+      "3": [
+        {
+          "subject": "진로탐색활동",
+          "teacher": "지은"
+        }
+      ],
+      "4": [
+        {
+          "subject": "스포츠문화D",
+          "teacher": "미진"
+        },
+        {
+          "subject": "스포츠과학D",
+          "teacher": "병호"
+        }
+      ],
+      "5": [
+        {
+          "subject": "미적분IIA",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리B",
+          "teacher": "철진"
+        },
+        {
+          "subject": "경제A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IA",
+          "teacher": "정영"
+        },
+        {
+          "subject": "한문I",
+          "teacher": "명옥"
+        }
+      ],
+      "6": []
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "지구과학IA",
+          "teacher": "정하"
+        }
+      ],
+      "2": [
+        {
+          "subject": "미적분IIB",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IA",
+          "teacher": "경란"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "지민"
+        },
+        {
+          "subject": "일본어IB",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IB",
+          "teacher": "사라"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IIC",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "경제B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "화학IB",
+          "teacher": "경란생명과학IC"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IC",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IC",
+          "teacher": "사라"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리B",
+          "teacher": "인선"
+        },
+        {
+          "subject": "세계지리D",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "경란"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "화학II",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학ID",
+          "teacher": "정하"
+        },
+        {
+          "subject": "중국어ID",
+          "teacher": "사라"
+        }
+      ],
+      "5": [
+        {
+          "subject": "스포츠문화D",
+          "teacher": "미진"
+        },
+        {
+          "subject": "스포츠과학D",
+          "teacher": "병호"
+        }
+      ],
+      "6": [
+        {
+          "subject": "제과제빵F",
+          "teacher": "정희"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "미적분I",
+          "teacher": "승철"
+        }
+      ],
+      "2": [
+        {
+          "subject": "미적분IIA",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리B",
+          "teacher": "철진"
+        },
+        {
+          "subject": "경제A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IA",
+          "teacher": "정영"
+        },
+        {
+          "subject": "한문I",
+          "teacher": "명옥"
+        }
+      ],
+      "3": [
+        {
+          "subject": "영어II",
+          "teacher": "현규"
+        }
+      ],
+      "4": [
+        {
+          "subject": "미적분IID",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "생활과윤리A",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "세계지리C",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학IC",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어ID",
+          "teacher": "정영"
+        }
+      ],
+      "5": [
+        {
+          "subject": "영화기술B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "제과제빵E",
+          "teacher": "정희"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "지구과학IA",
+          "teacher": "정하"
+        }
+      ],
+      "2": [
+        {
+          "subject": "미적분I",
+          "teacher": "승철"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IIB",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IA",
+          "teacher": "경란"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "지민"
+        },
+        {
+          "subject": "일본어IB",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IB",
+          "teacher": "사라"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리B",
+          "teacher": "인선"
+        },
+        {
+          "subject": "세계지리D",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "경란"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "화학II",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학ID",
+          "teacher": "정하"
+        },
+        {
+          "subject": "중국어ID",
+          "teacher": "사라"
+        }
+      ],
+      "5": [
+        {
+          "subject": "미적분IIC",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "경제B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "화학IB",
+          "teacher": "경란생명과학IC"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IC",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IC",
+          "teacher": "사라"
+        }
+      ],
+      "6": [
+        {
+          "subject": "영어II",
+          "teacher": "경진"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "정자"
+        }
+      ],
+      "2": [
+        {
+          "subject": "영어II",
+          "teacher": "현규"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IID",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "생활과윤리A",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "세계지리C",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학IC",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어ID",
+          "teacher": "정영"
+        }
+      ],
+      "4": [
+        {
+          "subject": "인문논술B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "독서F",
+          "teacher": "세리"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  },
+  "8": {
+    "MONDAY": {
+      "1": [],
+      "2": [
+        {
+          "subject": "영어II",
+          "teacher": "현규"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분I",
+          "teacher": "성훈"
+        }
+      ],
+      "4": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "혜원"
+        }
+      ],
+      "5": [
+        {
+          "subject": "미적분IIA",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리B",
+          "teacher": "철진"
+        },
+        {
+          "subject": "경제A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IA",
+          "teacher": "정영"
+        },
+        {
+          "subject": "한문I",
+          "teacher": "명옥"
+        }
+      ],
+      "6": [
+        {
+          "subject": "스포츠문화A",
+          "teacher": "미진"
+        },
+        {
+          "subject": "스포츠과학A",
+          "teacher": "병호"
+        }
+      ]
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "지구과학IA",
+          "teacher": "정하"
+        }
+      ],
+      "2": [
+        {
+          "subject": "미적분IIB",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IA",
+          "teacher": "경란"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "지민"
+        },
+        {
+          "subject": "일본어IB",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IB",
+          "teacher": "사라"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IIC",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "경제B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "화학IB",
+          "teacher": "경란생명과학IC"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IC",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IC",
+          "teacher": "사라"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리B",
+          "teacher": "인선"
+        },
+        {
+          "subject": "세계지리D",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "경란"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "화학II",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학ID",
+          "teacher": "정하"
+        },
+        {
+          "subject": "중국어ID",
+          "teacher": "사라"
+        }
+      ],
+      "5": [
+        {
+          "subject": "영어II",
+          "teacher": "현규"
+        }
+      ],
+      "6": [
+        {
+          "subject": "제과제빵F",
+          "teacher": "정희"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "정자"
+        }
+      ],
+      "2": [
+        {
+          "subject": "미적분IIA",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리B",
+          "teacher": "철진"
+        },
+        {
+          "subject": "경제A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IA",
+          "teacher": "정영"
+        },
+        {
+          "subject": "한문I",
+          "teacher": "명옥"
+        }
+      ],
+      "3": [
+        {
+          "subject": "독서와 문법",
+          "teacher": "혜원"
+        }
+      ],
+      "4": [
+        {
+          "subject": "미적분IID",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "생활과윤리A",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "세계지리C",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학IC",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어ID",
+          "teacher": "정영"
+        }
+      ],
+      "5": [
+        {
+          "subject": "영화기술B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "제과제빵E",
+          "teacher": "정희"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "지구과학IA",
+          "teacher": "정하"
+        }
+      ],
+      "2": [
+        {
+          "subject": "미적분I",
+          "teacher": "성훈"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IIB",
+          "teacher": "성훈"
+        },
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IA",
+          "teacher": "경란"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "지민"
+        },
+        {
+          "subject": "일본어IB",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IB",
+          "teacher": "사라"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리B",
+          "teacher": "인선"
+        },
+        {
+          "subject": "세계지리D",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "경란"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "화학II",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학ID",
+          "teacher": "정하"
+        },
+        {
+          "subject": "중국어ID",
+          "teacher": "사라"
+        }
+      ],
+      "5": [
+        {
+          "subject": "미적분IIC",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "경제B",
+          "teacher": "승태"
+        },
+        {
+          "subject": "화학IB",
+          "teacher": "경란생명과학IC"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어IC",
+          "teacher": "정영"
+        },
+        {
+          "subject": "중국어IC",
+          "teacher": "사라"
+        }
+      ],
+      "6": [
+        {
+          "subject": "스포츠문화A",
+          "teacher": "미진"
+        },
+        {
+          "subject": "스포츠과학A",
+          "teacher": "병호"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "진로탐색활동",
+          "teacher": "명옥"
+        }
+      ],
+      "2": [
+        {
+          "subject": "영어II",
+          "teacher": "경진"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미적분IID",
+          "teacher": "윤미"
+        },
+        {
+          "subject": "생활과윤리A",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "세계지리C",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치A",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학IC",
+          "teacher": "정하"
+        },
+        {
+          "subject": "일본어ID",
+          "teacher": "정영"
+        }
+      ],
+      "4": [
+        {
+          "subject": "인문논술B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "독서F",
+          "teacher": "세리"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  }
+}

@@ -1,0 +1,3008 @@
+{
+  "1": {
+    "MONDAY": {
+      "1": [
+        {
+          "subject": "수리논술A",
+          "teacher": "보명"
+        },
+        {
+          "subject": "독서A1",
+          "teacher": "영현"
+        },
+        {
+          "subject": "A2",
+          "teacher": "용수"
+        }
+      ],
+      "2": [
+        {
+          "subject": "기하와벡터",
+          "teacher": "강철"
+        }
+      ],
+      "3": [
+        {
+          "subject": "고전",
+          "teacher": "자현"
+        }
+      ],
+      "4": [],
+      "5": [
+        {
+          "subject": "음악교양실기B",
+          "teacher": "용주"
+        },
+        {
+          "subject": "디지털사진촬영D",
+          "teacher": "문종"
+        }
+      ],
+      "6": []
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "개인대인운동A",
+          "teacher": "지은"
+        },
+        {
+          "subject": "체력운동A",
+          "teacher": "용수"
+        }
+      ],
+      "2": [
+        {
+          "subject": "영어회화",
+          "teacher": "준상"
+        }
+      ],
+      "3": [
+        {
+          "subject": "체력운동E",
+          "teacher": "용수"
+        },
+        {
+          "subject": "영화감상과비평F",
+          "teacher": "병수"
+        }
+      ],
+      "4": [
+        {
+          "subject": "고전",
+          "teacher": "상돈"
+        }
+      ],
+      "5": [
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "동아시아사",
+          "teacher": "혜영"
+        },
+        {
+          "subject": "사회문화",
+          "teacher": "성호"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "미술창작B",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영B",
+          "teacher": "문종"
+        }
+      ],
+      "6": [
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치",
+          "teacher": "정희"
+        },
+        {
+          "subject": "미술창작C",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평C",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영C",
+          "teacher": "문종"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "영어회화",
+          "teacher": "혜령"
+        }
+      ],
+      "2": [],
+      "3": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "경제",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "체력운동D",
+          "teacher": "용수"
+        },
+        {
+          "subject": "음악교양실기A",
+          "teacher": "용주"
+        },
+        {
+          "subject": "미술창작A",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영A",
+          "teacher": "문종"
+        }
+      ],
+      "4": [
+        {
+          "subject": "고급수학II",
+          "teacher": "강철"
+        },
+        {
+          "subject": "물리I",
+          "teacher": "승완"
+        },
+        {
+          "subject": "생명과학I",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IA",
+          "teacher": "성조"
+        },
+        {
+          "subject": "영화감상과비평D",
+          "teacher": "병수"
+        }
+      ],
+      "5": [
+        {
+          "subject": "고전",
+          "teacher": "상돈"
+        }
+      ],
+      "6": []
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "영어회화",
+          "teacher": "준상"
+        }
+      ],
+      "2": [
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치",
+          "teacher": "정희"
+        },
+        {
+          "subject": "미술창작C",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평C",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영C",
+          "teacher": "문종"
+        }
+      ],
+      "3": [
+        {
+          "subject": "체력운동E",
+          "teacher": "용수"
+        },
+        {
+          "subject": "영화감상과비평F",
+          "teacher": "병수"
+        }
+      ],
+      "4": [
+        {
+          "subject": "개인대인운동A",
+          "teacher": "지은"
+        },
+        {
+          "subject": "체력운동A",
+          "teacher": "용수"
+        }
+      ],
+      "5": [
+        {
+          "subject": "음악교양실기B",
+          "teacher": "용주"
+        },
+        {
+          "subject": "디지털사진촬영D",
+          "teacher": "문종"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "동아시아사",
+          "teacher": "혜영"
+        },
+        {
+          "subject": "사회문화",
+          "teacher": "성호"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "미술장작B",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영B",
+          "teacher": "문종"
+        }
+      ],
+      "2": [],
+      "3": [
+        {
+          "subject": "고급수학II",
+          "teacher": "강철"
+        },
+        {
+          "subject": "물리I",
+          "teacher": "승완"
+        },
+        {
+          "subject": "생명과학I",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IA",
+          "teacher": "성조"
+        },
+        {
+          "subject": "영화감상과비평D",
+          "teacher": "병수"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "경제",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "체력운동D",
+          "teacher": "용수"
+        },
+        {
+          "subject": "음악교양실기A",
+          "teacher": "용주"
+        },
+        {
+          "subject": "미술창작A",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영A",
+          "teacher": "문종"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  },
+  "2": {
+    "MONDAY": {
+      "1": [
+        {
+          "subject": "수리논술A",
+          "teacher": "보명"
+        },
+        {
+          "subject": "독서A1",
+          "teacher": "영현"
+        },
+        {
+          "subject": "A2",
+          "teacher": "용수"
+        }
+      ],
+      "2": [],
+      "3": [
+        {
+          "subject": "영어회화",
+          "teacher": "혜령"
+        }
+      ],
+      "4": [
+        {
+          "subject": "고전",
+          "teacher": "자현"
+        }
+      ],
+      "5": [
+        {
+          "subject": "음악교양실기B",
+          "teacher": "용주"
+        },
+        {
+          "subject": "디지털사진촬영D",
+          "teacher": "문종"
+        }
+      ],
+      "6": []
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "개인대인운동A",
+          "teacher": "지은"
+        },
+        {
+          "subject": "체력운동A",
+          "teacher": "용수"
+        }
+      ],
+      "2": [
+        {
+          "subject": "기하와벡터",
+          "teacher": "강철"
+        }
+      ],
+      "3": [
+        {
+          "subject": "체력운동E",
+          "teacher": "용수"
+        },
+        {
+          "subject": "영화감상과비평F",
+          "teacher": "병수"
+        }
+      ],
+      "4": [
+        {
+          "subject": "영어회화",
+          "teacher": "혜령"
+        }
+      ],
+      "5": [
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "동아시아사",
+          "teacher": "혜영"
+        },
+        {
+          "subject": "사회문화",
+          "teacher": "성호"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "미술창작B",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영B",
+          "teacher": "문종"
+        }
+      ],
+      "6": [
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치",
+          "teacher": "정희"
+        },
+        {
+          "subject": "미술창작C",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평C",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영C",
+          "teacher": "문종"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "영어회화",
+          "teacher": "준상"
+        }
+      ],
+      "2": [],
+      "3": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "경제",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "체력운동D",
+          "teacher": "용수"
+        },
+        {
+          "subject": "음악교양실기A",
+          "teacher": "용주"
+        },
+        {
+          "subject": "미술창작A",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영A",
+          "teacher": "문종"
+        }
+      ],
+      "4": [
+        {
+          "subject": "고급수학II",
+          "teacher": "강철"
+        },
+        {
+          "subject": "물리I",
+          "teacher": "승완"
+        },
+        {
+          "subject": "생명과학I",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IA",
+          "teacher": "성조"
+        },
+        {
+          "subject": "영화감상과비평D",
+          "teacher": "병수"
+        }
+      ],
+      "5": [
+        {
+          "subject": "고전",
+          "teacher": "자현"
+        }
+      ],
+      "6": []
+    },
+    "THURSDAY": {
+      "1": [],
+      "2": [
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치",
+          "teacher": "정희"
+        },
+        {
+          "subject": "미술창작C",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평C",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영C",
+          "teacher": "문종"
+        }
+      ],
+      "3": [
+        {
+          "subject": "체력운동E",
+          "teacher": "용수"
+        },
+        {
+          "subject": "영화감상과비평F",
+          "teacher": "병수"
+        }
+      ],
+      "4": [
+        {
+          "subject": "개인대인운동A",
+          "teacher": "지은"
+        },
+        {
+          "subject": "체력운동A",
+          "teacher": "용수"
+        }
+      ],
+      "5": [
+        {
+          "subject": "음악교양실기B",
+          "teacher": "용주"
+        },
+        {
+          "subject": "디지털사진촬영D",
+          "teacher": "문종"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "동아시아사",
+          "teacher": "혜영"
+        },
+        {
+          "subject": "사회문화",
+          "teacher": "성호"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "미술장작B",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영B",
+          "teacher": "문종"
+        }
+      ],
+      "2": [
+        {
+          "subject": "고전",
+          "teacher": "상돈"
+        }
+      ],
+      "3": [
+        {
+          "subject": "고급수학II",
+          "teacher": "강철"
+        },
+        {
+          "subject": "물리I",
+          "teacher": "승완"
+        },
+        {
+          "subject": "생명과학I",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IA",
+          "teacher": "성조"
+        },
+        {
+          "subject": "영화감상과비평D",
+          "teacher": "병수"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "경제",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "체력운동D",
+          "teacher": "용수"
+        },
+        {
+          "subject": "음악교양실기A",
+          "teacher": "용주"
+        },
+        {
+          "subject": "미술창작A",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영A",
+          "teacher": "문종"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  },
+  "3": {
+    "MONDAY": {
+      "1": [
+        {
+          "subject": "확률과통계",
+          "teacher": "철우"
+        }
+      ],
+      "2": [
+        {
+          "subject": "영어회화",
+          "teacher": "혜령"
+        }
+      ],
+      "3": [
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "음악C",
+          "teacher": "용주"
+        },
+        {
+          "subject": "영화감상과비평G",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영E",
+          "teacher": "문종"
+        }
+      ],
+      "4": [
+        {
+          "subject": "고전",
+          "teacher": "상돈"
+        }
+      ],
+      "5": [
+        {
+          "subject": "음악교양실기B",
+          "teacher": "용주"
+        },
+        {
+          "subject": "디지털사진촬영D",
+          "teacher": "문종"
+        }
+      ],
+      "6": []
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "개인대인운동A",
+          "teacher": "지은"
+        },
+        {
+          "subject": "체력운동A",
+          "teacher": "용수"
+        }
+      ],
+      "2": [],
+      "3": [
+        {
+          "subject": "체력운동E",
+          "teacher": "용수"
+        },
+        {
+          "subject": "영화감상과비평F",
+          "teacher": "병수"
+        }
+      ],
+      "4": [
+        {
+          "subject": "고전",
+          "teacher": "자현"
+        }
+      ],
+      "5": [
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "동아시아사",
+          "teacher": "혜영"
+        },
+        {
+          "subject": "사회문화",
+          "teacher": "성호"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "미술창작B",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영B",
+          "teacher": "문종"
+        }
+      ],
+      "6": [
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치",
+          "teacher": "정희"
+        },
+        {
+          "subject": "미술창작C",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평C",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영C",
+          "teacher": "문종"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "음악교양실기C",
+          "teacher": "용주"
+        },
+        {
+          "subject": "영화감상과비평G",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영E",
+          "teacher": "문종"
+        }
+      ],
+      "2": [
+        {
+          "subject": "고전",
+          "teacher": "상돈"
+        }
+      ],
+      "3": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "경제",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "체력운동D",
+          "teacher": "용수"
+        },
+        {
+          "subject": "음악교양실기A",
+          "teacher": "용주"
+        },
+        {
+          "subject": "미술창작A",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영A",
+          "teacher": "문종"
+        }
+      ],
+      "4": [
+        {
+          "subject": "고급수학II",
+          "teacher": "강철"
+        },
+        {
+          "subject": "물리I",
+          "teacher": "승완"
+        },
+        {
+          "subject": "생명과학I",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IA",
+          "teacher": "성조"
+        },
+        {
+          "subject": "영화감상과비평D",
+          "teacher": "병수"
+        }
+      ],
+      "5": [
+        {
+          "subject": "영어회화",
+          "teacher": "준상"
+        }
+      ],
+      "6": []
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "인문논술A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "독서B1",
+          "teacher": "세리"
+        },
+        {
+          "subject": "B2",
+          "teacher": "용수"
+        }
+      ],
+      "2": [
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치",
+          "teacher": "정희"
+        },
+        {
+          "subject": "미술창작C",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평C",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영C",
+          "teacher": "문종"
+        }
+      ],
+      "3": [
+        {
+          "subject": "체력운동E",
+          "teacher": "용수"
+        },
+        {
+          "subject": "영화감상과비평F",
+          "teacher": "병수"
+        }
+      ],
+      "4": [
+        {
+          "subject": "개인대인운동A",
+          "teacher": "지은"
+        },
+        {
+          "subject": "체력운동A",
+          "teacher": "용수"
+        }
+      ],
+      "5": [
+        {
+          "subject": "음악교양실기B",
+          "teacher": "용주"
+        },
+        {
+          "subject": "디지털사진촬영D",
+          "teacher": "문종"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "동아시아사",
+          "teacher": "혜영"
+        },
+        {
+          "subject": "사회문화",
+          "teacher": "성호"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "미술장작B",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영B",
+          "teacher": "문종"
+        }
+      ],
+      "2": [
+        {
+          "subject": "영어회화",
+          "teacher": "준상"
+        }
+      ],
+      "3": [
+        {
+          "subject": "고급수학II",
+          "teacher": "강철"
+        },
+        {
+          "subject": "물리I",
+          "teacher": "승완"
+        },
+        {
+          "subject": "생명과학I",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IA",
+          "teacher": "성조"
+        },
+        {
+          "subject": "영화감상과비평D",
+          "teacher": "병수"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "경제",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "체력운동D",
+          "teacher": "용수"
+        },
+        {
+          "subject": "음악교양실기A",
+          "teacher": "용주"
+        },
+        {
+          "subject": "미술창작A",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영A",
+          "teacher": "문종"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  },
+  "4": {
+    "MONDAY": {
+      "1": [],
+      "2": [
+        {
+          "subject": "고전",
+          "teacher": "상돈"
+        }
+      ],
+      "3": [
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "음악C",
+          "teacher": "용주"
+        },
+        {
+          "subject": "영화감상과비평G",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영E",
+          "teacher": "문종"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "성조"
+        },
+        {
+          "subject": "디지털사진촬영G",
+          "teacher": "문종"
+        }
+      ],
+      "5": [
+        {
+          "subject": "영어회화",
+          "teacher": "혜령"
+        }
+      ],
+      "6": []
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "고전",
+          "teacher": "자현"
+        }
+      ],
+      "2": [
+        {
+          "subject": "개인대인운동B",
+          "teacher": "지은"
+        },
+        {
+          "subject": "체력운동B",
+          "teacher": "병호"
+        }
+      ],
+      "3": [
+        {
+          "subject": "영어회화",
+          "teacher": "혜령"
+        }
+      ],
+      "4": [
+        {
+          "subject": "확률과통계",
+          "teacher": "철우"
+        }
+      ],
+      "5": [
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "동아시아사",
+          "teacher": "혜영"
+        },
+        {
+          "subject": "사회문화",
+          "teacher": "성호"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "미술창작B",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영B",
+          "teacher": "문종"
+        }
+      ],
+      "6": [
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치",
+          "teacher": "정희"
+        },
+        {
+          "subject": "미술창작C",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평C",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영C",
+          "teacher": "문종"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "음악교양실기C",
+          "teacher": "용주"
+        },
+        {
+          "subject": "영화감상과비평G",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영E",
+          "teacher": "문종"
+        }
+      ],
+      "2": [
+        {
+          "subject": "영어회화",
+          "teacher": "준상"
+        }
+      ],
+      "3": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "경제",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "체력운동D",
+          "teacher": "용수"
+        },
+        {
+          "subject": "음악교양실기A",
+          "teacher": "용주"
+        },
+        {
+          "subject": "미술창작A",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영A",
+          "teacher": "문종"
+        }
+      ],
+      "4": [
+        {
+          "subject": "고급수학II",
+          "teacher": "강철"
+        },
+        {
+          "subject": "물리I",
+          "teacher": "승완"
+        },
+        {
+          "subject": "생명과학I",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IA",
+          "teacher": "성조"
+        },
+        {
+          "subject": "영화감상과비평D",
+          "teacher": "병수"
+        }
+      ],
+      "5": [
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "성조"
+        },
+        {
+          "subject": "디지털사진촬영G",
+          "teacher": "문종"
+        }
+      ],
+      "6": []
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "인문논술A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "독서B1",
+          "teacher": "세리"
+        },
+        {
+          "subject": "B2",
+          "teacher": "용수"
+        }
+      ],
+      "2": [
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치",
+          "teacher": "정희"
+        },
+        {
+          "subject": "미술창작C",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평C",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영C",
+          "teacher": "문종"
+        }
+      ],
+      "3": [],
+      "4": [
+        {
+          "subject": "고전",
+          "teacher": "자현"
+        }
+      ],
+      "5": [],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "동아시아사",
+          "teacher": "혜영"
+        },
+        {
+          "subject": "사회문화",
+          "teacher": "성호"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "미술장작B",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영B",
+          "teacher": "문종"
+        }
+      ],
+      "2": [
+        {
+          "subject": "개인대인운동B",
+          "teacher": "지은"
+        },
+        {
+          "subject": "체력운동B",
+          "teacher": "병호"
+        }
+      ],
+      "3": [
+        {
+          "subject": "고급수학II",
+          "teacher": "강철"
+        },
+        {
+          "subject": "물리I",
+          "teacher": "승완"
+        },
+        {
+          "subject": "생명과학I",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IA",
+          "teacher": "성조"
+        },
+        {
+          "subject": "영화감상과비평D",
+          "teacher": "병수"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "경제",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "체력운동D",
+          "teacher": "용수"
+        },
+        {
+          "subject": "음악교양실기A",
+          "teacher": "용주"
+        },
+        {
+          "subject": "미술창작A",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영A",
+          "teacher": "문종"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  },
+  "5": {
+    "MONDAY": {
+      "1": [
+        {
+          "subject": "영어회화",
+          "teacher": "준상"
+        }
+      ],
+      "2": [
+        {
+          "subject": "수리논술B",
+          "teacher": "보명"
+        },
+        {
+          "subject": "독서C",
+          "teacher": "영현"
+        },
+        {
+          "subject": "독서D",
+          "teacher": "승완"
+        }
+      ],
+      "3": [
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "음악C",
+          "teacher": "용주"
+        },
+        {
+          "subject": "영화감상과비평G",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영E",
+          "teacher": "문종"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "성조"
+        },
+        {
+          "subject": "디지털사진촬영G",
+          "teacher": "문종"
+        }
+      ],
+      "5": [
+        {
+          "subject": "고전",
+          "teacher": "상돈"
+        }
+      ],
+      "6": []
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "영어회화",
+          "teacher": "준상"
+        }
+      ],
+      "2": [
+        {
+          "subject": "개인대인운동B",
+          "teacher": "지은"
+        },
+        {
+          "subject": "체력운동B",
+          "teacher": "병호"
+        }
+      ],
+      "3": [
+        {
+          "subject": "고전",
+          "teacher": "자현"
+        }
+      ],
+      "4": [],
+      "5": [
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "동아시아사",
+          "teacher": "혜영"
+        },
+        {
+          "subject": "사회문화",
+          "teacher": "성호"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "미술창작B",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영B",
+          "teacher": "문종"
+        }
+      ],
+      "6": [
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치",
+          "teacher": "정희"
+        },
+        {
+          "subject": "미술창작C",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평C",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영C",
+          "teacher": "문종"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "음악교양실기C",
+          "teacher": "용주"
+        },
+        {
+          "subject": "영화감상과비평G",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영E",
+          "teacher": "문종"
+        }
+      ],
+      "2": [],
+      "3": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "경제",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "체력운동D",
+          "teacher": "용수"
+        },
+        {
+          "subject": "음악교양실기A",
+          "teacher": "용주"
+        },
+        {
+          "subject": "미술창작A",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영A",
+          "teacher": "문종"
+        }
+      ],
+      "4": [
+        {
+          "subject": "고급수학II",
+          "teacher": "강철"
+        },
+        {
+          "subject": "물리I",
+          "teacher": "승완"
+        },
+        {
+          "subject": "생명과학I",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IA",
+          "teacher": "성조"
+        },
+        {
+          "subject": "영화감상과비평D",
+          "teacher": "병수"
+        }
+      ],
+      "5": [
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "성조"
+        },
+        {
+          "subject": "디지털사진촬영G",
+          "teacher": "문종"
+        }
+      ],
+      "6": []
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "기하와벡터",
+          "teacher": "강철"
+        }
+      ],
+      "2": [
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치",
+          "teacher": "정희"
+        },
+        {
+          "subject": "미술창작C",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평C",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영C",
+          "teacher": "문종"
+        }
+      ],
+      "3": [
+        {
+          "subject": "영어회화",
+          "teacher": "혜령"
+        }
+      ],
+      "4": [],
+      "5": [
+        {
+          "subject": "고전",
+          "teacher": "상돈"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "동아시아사",
+          "teacher": "혜영"
+        },
+        {
+          "subject": "사회문화",
+          "teacher": "성호"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "미술장작B",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영B",
+          "teacher": "문종"
+        }
+      ],
+      "2": [
+        {
+          "subject": "개인대인운동B",
+          "teacher": "지은"
+        },
+        {
+          "subject": "체력운동B",
+          "teacher": "병호"
+        }
+      ],
+      "3": [
+        {
+          "subject": "고급수학II",
+          "teacher": "강철"
+        },
+        {
+          "subject": "물리I",
+          "teacher": "승완"
+        },
+        {
+          "subject": "생명과학I",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IA",
+          "teacher": "성조"
+        },
+        {
+          "subject": "영화감상과비평D",
+          "teacher": "병수"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "경제",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "체력운동D",
+          "teacher": "용수"
+        },
+        {
+          "subject": "음악교양실기A",
+          "teacher": "용주"
+        },
+        {
+          "subject": "미술창작A",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영A",
+          "teacher": "문종"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  },
+  "6": {
+    "MONDAY": {
+      "1": [],
+      "2": [
+        {
+          "subject": "수리논술B",
+          "teacher": "보명"
+        },
+        {
+          "subject": "독서C",
+          "teacher": "영현"
+        },
+        {
+          "subject": "독서D",
+          "teacher": "승완"
+        }
+      ],
+      "3": [
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "음악C",
+          "teacher": "용주"
+        },
+        {
+          "subject": "영화감상과비평G",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영E",
+          "teacher": "문종"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "성조"
+        },
+        {
+          "subject": "디지털사진촬영G",
+          "teacher": "문종"
+        }
+      ],
+      "5": [
+        {
+          "subject": "체력운동F",
+          "teacher": "용수"
+        },
+        {
+          "subject": "영화감상과비평E",
+          "teacher": "병수"
+        }
+      ],
+      "6": []
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "영어회화",
+          "teacher": "혜령"
+        }
+      ],
+      "2": [
+        {
+          "subject": "개인대인운동B",
+          "teacher": "지은"
+        },
+        {
+          "subject": "체력운동B",
+          "teacher": "병호"
+        }
+      ],
+      "3": [],
+      "4": [
+        {
+          "subject": "체력운동F",
+          "teacher": "용수"
+        },
+        {
+          "subject": "영화감상과비평E",
+          "teacher": "병수"
+        }
+      ],
+      "5": [
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "동아시아사",
+          "teacher": "혜영"
+        },
+        {
+          "subject": "사회문화",
+          "teacher": "성호"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "미술창작B",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영B",
+          "teacher": "문종"
+        }
+      ],
+      "6": [
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치",
+          "teacher": "정희"
+        },
+        {
+          "subject": "미술창작C",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평C",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영C",
+          "teacher": "문종"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "한국지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "음악교양실기C",
+          "teacher": "용주"
+        },
+        {
+          "subject": "영화감상과비평G",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영E",
+          "teacher": "문종"
+        }
+      ],
+      "2": [
+        {
+          "subject": "영어회화",
+          "teacher": "혜령"
+        }
+      ],
+      "3": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "경제",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "체력운동D",
+          "teacher": "용수"
+        },
+        {
+          "subject": "음악교양실기A",
+          "teacher": "용주"
+        },
+        {
+          "subject": "미술창작A",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영A",
+          "teacher": "문종"
+        }
+      ],
+      "4": [
+        {
+          "subject": "고전",
+          "teacher": "자현"
+        }
+      ],
+      "5": [
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "성조"
+        },
+        {
+          "subject": "디지털사진촬영G",
+          "teacher": "문종"
+        }
+      ],
+      "6": []
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "고전",
+          "teacher": "상돈"
+        }
+      ],
+      "2": [
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치",
+          "teacher": "정희"
+        },
+        {
+          "subject": "미술창작C",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평C",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영C",
+          "teacher": "문종"
+        }
+      ],
+      "3": [
+        {
+          "subject": "기하와벡터",
+          "teacher": "강철"
+        }
+      ],
+      "4": [],
+      "5": [
+        {
+          "subject": "영어회화",
+          "teacher": "준상"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "동아시아사",
+          "teacher": "혜영"
+        },
+        {
+          "subject": "사회문화",
+          "teacher": "성호"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "미술장작B",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영B",
+          "teacher": "문종"
+        }
+      ],
+      "2": [
+        {
+          "subject": "개인대인운동B",
+          "teacher": "지은"
+        },
+        {
+          "subject": "체력운동B",
+          "teacher": "병호"
+        }
+      ],
+      "3": [
+        {
+          "subject": "고전",
+          "teacher": "자현"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "경제",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "체력운동D",
+          "teacher": "용수"
+        },
+        {
+          "subject": "음악교양실기A",
+          "teacher": "용주"
+        },
+        {
+          "subject": "미술창작A",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영A",
+          "teacher": "문종"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  },
+  "7": {
+    "MONDAY": {
+      "1": [],
+      "2": [
+        {
+          "subject": "수리논술B",
+          "teacher": "보명"
+        },
+        {
+          "subject": "독서C",
+          "teacher": "영현"
+        },
+        {
+          "subject": "독서D",
+          "teacher": "승완"
+        }
+      ],
+      "3": [],
+      "4": [
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "성조"
+        },
+        {
+          "subject": "디지털사진촬영G",
+          "teacher": "문종"
+        }
+      ],
+      "5": [
+        {
+          "subject": "체력운동F",
+          "teacher": "용수"
+        },
+        {
+          "subject": "영화감상과비평E",
+          "teacher": "병수"
+        }
+      ],
+      "6": []
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "고전",
+          "teacher": "상돈"
+        }
+      ],
+      "2": [
+        {
+          "subject": "음악교양실기D",
+          "teacher": "용주"
+        },
+        {
+          "subject": "디지털사진촬영F",
+          "teacher": "문종"
+        }
+      ],
+      "3": [
+        {
+          "subject": "영어회화",
+          "teacher": "준상"
+        }
+      ],
+      "4": [
+        {
+          "subject": "체력운동F",
+          "teacher": "용수"
+        },
+        {
+          "subject": "영화감상과비평E",
+          "teacher": "병수"
+        }
+      ],
+      "5": [
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "동아시아사",
+          "teacher": "혜영"
+        },
+        {
+          "subject": "사회문화",
+          "teacher": "성호"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "미술창작B",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영B",
+          "teacher": "문종"
+        }
+      ],
+      "6": [
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치",
+          "teacher": "정희"
+        },
+        {
+          "subject": "미술창작C",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평C",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영C",
+          "teacher": "문종"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "고전",
+          "teacher": "상돈"
+        }
+      ],
+      "2": [
+        {
+          "subject": "개인대인운동C",
+          "teacher": "지은"
+        },
+        {
+          "subject": "체력운동C",
+          "teacher": "병호"
+        }
+      ],
+      "3": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "경제",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "체력운동D",
+          "teacher": "용수"
+        },
+        {
+          "subject": "음악교양실기A",
+          "teacher": "용주"
+        },
+        {
+          "subject": "미술창작A",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영A",
+          "teacher": "문종"
+        }
+      ],
+      "4": [
+        {
+          "subject": "음악교양실기D",
+          "teacher": "용주"
+        },
+        {
+          "subject": "디지털사진촬영F",
+          "teacher": "문종"
+        }
+      ],
+      "5": [
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "성조"
+        },
+        {
+          "subject": "디지털사진촬영G",
+          "teacher": "문종"
+        }
+      ],
+      "6": []
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "영어회화",
+          "teacher": "혜령"
+        }
+      ],
+      "2": [
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치",
+          "teacher": "정희"
+        },
+        {
+          "subject": "미술창작C",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평C",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영C",
+          "teacher": "문종"
+        }
+      ],
+      "3": [
+        {
+          "subject": "고전",
+          "teacher": "자현"
+        }
+      ],
+      "4": [
+        {
+          "subject": "영어회화",
+          "teacher": "준상"
+        }
+      ],
+      "5": [
+        {
+          "subject": "기하와벡터",
+          "teacher": "강철"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "동아시아사",
+          "teacher": "혜영"
+        },
+        {
+          "subject": "사회문화",
+          "teacher": "성호"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "미술장작B",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영B",
+          "teacher": "문종"
+        }
+      ],
+      "2": [],
+      "3": [
+        {
+          "subject": "개인대인운동C",
+          "teacher": "지은"
+        },
+        {
+          "subject": "체력운동C",
+          "teacher": "병호"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "경제",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "체력운동D",
+          "teacher": "용수"
+        },
+        {
+          "subject": "음악교양실기A",
+          "teacher": "용주"
+        },
+        {
+          "subject": "미술창작A",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영A",
+          "teacher": "문종"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  },
+  "8": {
+    "MONDAY": {
+      "1": [
+        {
+          "subject": "고전",
+          "teacher": "자현"
+        }
+      ],
+      "2": [
+        {
+          "subject": "인문논술B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "독서E",
+          "teacher": "세리"
+        }
+      ],
+      "3": [
+        {
+          "subject": "영어회화",
+          "teacher": "준상"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "성조"
+        },
+        {
+          "subject": "디지털사진촬영G",
+          "teacher": "문종"
+        }
+      ],
+      "5": [
+        {
+          "subject": "체력운동F",
+          "teacher": "용수"
+        },
+        {
+          "subject": "영화감상과비평E",
+          "teacher": "병수"
+        }
+      ],
+      "6": []
+    },
+    "TUESDAY": {
+      "1": [],
+      "2": [
+        {
+          "subject": "음악교양실기D",
+          "teacher": "용주"
+        },
+        {
+          "subject": "디지털사진촬영F",
+          "teacher": "문종"
+        }
+      ],
+      "3": [
+        {
+          "subject": "고전",
+          "teacher": "상돈"
+        }
+      ],
+      "4": [
+        {
+          "subject": "체력운동F",
+          "teacher": "용수"
+        },
+        {
+          "subject": "영화감상과비평E",
+          "teacher": "병수"
+        }
+      ],
+      "5": [
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "동아시아사",
+          "teacher": "혜영"
+        },
+        {
+          "subject": "사회문화",
+          "teacher": "성호"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "미술창작B",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영B",
+          "teacher": "문종"
+        }
+      ],
+      "6": [
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치",
+          "teacher": "정희"
+        },
+        {
+          "subject": "미술창작C",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평C",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영C",
+          "teacher": "문종"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [],
+      "2": [
+        {
+          "subject": "개인대인운동C",
+          "teacher": "지은"
+        },
+        {
+          "subject": "체력운동C",
+          "teacher": "병호"
+        }
+      ],
+      "3": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "경제",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "체력운동D",
+          "teacher": "용수"
+        },
+        {
+          "subject": "음악교양실기A",
+          "teacher": "용주"
+        },
+        {
+          "subject": "미술창작A",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영A",
+          "teacher": "문종"
+        }
+      ],
+      "4": [
+        {
+          "subject": "음악교양실기D",
+          "teacher": "용주"
+        },
+        {
+          "subject": "디지털사진촬영F",
+          "teacher": "문종"
+        }
+      ],
+      "5": [
+        {
+          "subject": "생명과학II",
+          "teacher": "지민"
+        },
+        {
+          "subject": "지구과학IB",
+          "teacher": "성조"
+        },
+        {
+          "subject": "디지털사진촬영G",
+          "teacher": "문종"
+        }
+      ],
+      "6": []
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "고전",
+          "teacher": "자현"
+        }
+      ],
+      "2": [
+        {
+          "subject": "세계사",
+          "teacher": "성희"
+        },
+        {
+          "subject": "세계지리",
+          "teacher": "철진"
+        },
+        {
+          "subject": "법과정치",
+          "teacher": "정희"
+        },
+        {
+          "subject": "미술창작C",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평C",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영C",
+          "teacher": "문종"
+        }
+      ],
+      "3": [],
+      "4": [
+        {
+          "subject": "확률과통계",
+          "teacher": "철우"
+        }
+      ],
+      "5": [
+        {
+          "subject": "영어회화",
+          "teacher": "혜령"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "윤리와사상",
+          "teacher": "인선"
+        },
+        {
+          "subject": "동아시아사",
+          "teacher": "혜영"
+        },
+        {
+          "subject": "사회문화",
+          "teacher": "성호"
+        },
+        {
+          "subject": "물리II",
+          "teacher": "성진"
+        },
+        {
+          "subject": "미술장작B",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영B",
+          "teacher": "문종"
+        }
+      ],
+      "2": [
+        {
+          "subject": "영어회화",
+          "teacher": "혜령"
+        }
+      ],
+      "3": [
+        {
+          "subject": "개인대인운동C",
+          "teacher": "지은"
+        },
+        {
+          "subject": "체력운동C",
+          "teacher": "병호"
+        }
+      ],
+      "4": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "경제",
+          "teacher": "승태"
+        },
+        {
+          "subject": "지구과학II",
+          "teacher": "정하"
+        },
+        {
+          "subject": "체력운동D",
+          "teacher": "용수"
+        },
+        {
+          "subject": "음악교양실기A",
+          "teacher": "용주"
+        },
+        {
+          "subject": "미술창작A",
+          "teacher": "병재"
+        },
+        {
+          "subject": "영화감상과비평A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "디지털사진촬영A",
+          "teacher": "문종"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  }
+}

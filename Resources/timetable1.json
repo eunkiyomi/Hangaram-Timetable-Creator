@@ -1,0 +1,2098 @@
+{
+  "1": {
+    "MONDAY": {
+      "1": [
+        {
+          "subject": "국어II",
+          "teacher": "원용"
+        }
+      ],
+      "2": [
+        {
+          "subject": "미술문화",
+          "teacher": "병재"
+        }
+      ],
+      "3": [
+        {
+          "subject": "수학IIA",
+          "teacher": "태영"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "영현"
+        }
+      ],
+      "4": [
+        {
+          "subject": "영화의이해A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "연극의이해A",
+          "teacher": "주희"
+        },
+        {
+          "subject": "서양조리A",
+          "teacher": "정희"
+        }
+      ],
+      "5": [
+        {
+          "subject": "운동과건강생활",
+          "teacher": "미진"
+        }
+      ],
+      "6": []
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "영어IA",
+          "teacher": "소영"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "윤주"
+        }
+      ],
+      "2": [
+        {
+          "subject": "수학IIA",
+          "teacher": "태영"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "영현"
+        }
+      ],
+      "3": [
+        {
+          "subject": "과학A",
+          "teacher": "성조"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "정진"
+        }
+      ],
+      "4": [
+        {
+          "subject": "한국사",
+          "teacher": "혜영"
+        }
+      ],
+      "5": [
+        {
+          "subject": "조리B",
+          "teacher": "정희"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "화학IB",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "정진"
+        },
+        {
+          "subject": "지구과학I",
+          "teacher": "정하"
+        }
+      ],
+      "2": [
+        {
+          "subject": "국어II",
+          "teacher": "원용"
+        }
+      ],
+      "3": [
+        {
+          "subject": "영어IA",
+          "teacher": "소영"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "세리"
+        }
+      ],
+      "4": [
+        {
+          "subject": "한국사",
+          "teacher": "혜영"
+        }
+      ],
+      "5": [
+        {
+          "subject": "화학IA",
+          "teacher": "정오"
+        }
+      ],
+      "6": [
+        {
+          "subject": "운동과건강생활",
+          "teacher": "미진"
+        }
+      ]
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "진로탐색활동",
+          "teacher": "성진"
+        }
+      ],
+      "2": [
+        {
+          "subject": "국어I",
+          "teacher": "원용"
+        }
+      ],
+      "3": [
+        {
+          "subject": "수학IIA",
+          "teacher": "태영"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "영현"
+        }
+      ],
+      "4": [
+        {
+          "subject": "달튼랩",
+          "teacher": "윤주"
+        }
+      ],
+      "5": [
+        {
+          "subject": "과학A",
+          "teacher": "성조"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "정진"
+        }
+      ],
+      "6": [
+        {
+          "subject": "영어IA",
+          "teacher": "세리"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "윤주"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "화학IB",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "정진"
+        },
+        {
+          "subject": "지구과학I",
+          "teacher": "정하"
+        }
+      ],
+      "2": [
+        {
+          "subject": "수학IIA",
+          "teacher": "태영"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "영현"
+        }
+      ],
+      "3": [
+        {
+          "subject": "음악과생활",
+          "teacher": "용주"
+        }
+      ],
+      "4": [
+        {
+          "subject": "화학IA",
+          "teacher": "정오"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  },
+  "2": {
+    "MONDAY": {
+      "1": [
+        {
+          "subject": "한국사",
+          "teacher": "혜영"
+        }
+      ],
+      "2": [
+        {
+          "subject": "진로탐색활동",
+          "teacher": "명옥"
+        }
+      ],
+      "3": [
+        {
+          "subject": "수학IIA",
+          "teacher": "태영"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "영현"
+        }
+      ],
+      "4": [
+        {
+          "subject": "영화의이해A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "연극의이해A",
+          "teacher": "주희"
+        },
+        {
+          "subject": "서양조리A",
+          "teacher": "정희"
+        }
+      ],
+      "5": [
+        {
+          "subject": "국어II",
+          "teacher": "원용"
+        }
+      ],
+      "6": []
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "영어IA",
+          "teacher": "소영"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "윤주"
+        }
+      ],
+      "2": [
+        {
+          "subject": "수학IIA",
+          "teacher": "태영"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "영현"
+        }
+      ],
+      "3": [
+        {
+          "subject": "과학A",
+          "teacher": "성조"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "정진"
+        }
+      ],
+      "4": [
+        {
+          "subject": "국어II",
+          "teacher": "원용"
+        }
+      ],
+      "5": [
+        {
+          "subject": "조리B",
+          "teacher": "정희"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "화학IB",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "정진"
+        },
+        {
+          "subject": "지구과학I",
+          "teacher": "정하"
+        }
+      ],
+      "2": [
+        {
+          "subject": "한국사",
+          "teacher": "혜영"
+        }
+      ],
+      "3": [
+        {
+          "subject": "영어IA",
+          "teacher": "소영"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "세리"
+        }
+      ],
+      "4": [
+        {
+          "subject": "운동과건강생활",
+          "teacher": "영호"
+        }
+      ],
+      "5": [
+        {
+          "subject": "화학IA",
+          "teacher": "정오"
+        }
+      ],
+      "6": [
+        {
+          "subject": "달튼랩",
+          "teacher": "윤주"
+        }
+      ]
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "국어II",
+          "teacher": "원용"
+        }
+      ],
+      "2": [
+        {
+          "subject": "음악과생활",
+          "teacher": "용주"
+        }
+      ],
+      "3": [
+        {
+          "subject": "수학IIA",
+          "teacher": "태영"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "영현"
+        }
+      ],
+      "4": [
+        {
+          "subject": "운동과건강생활",
+          "teacher": "영호"
+        }
+      ],
+      "5": [
+        {
+          "subject": "과학A",
+          "teacher": "성조"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "정진"
+        }
+      ],
+      "6": [
+        {
+          "subject": "영어IA",
+          "teacher": "세리"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "윤주"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "화학IB",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "정진"
+        },
+        {
+          "subject": "지구과학I",
+          "teacher": "정하"
+        }
+      ],
+      "2": [
+        {
+          "subject": "수학IIA",
+          "teacher": "태영"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "영현"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미술문화",
+          "teacher": "병재"
+        }
+      ],
+      "4": [
+        {
+          "subject": "화학IA",
+          "teacher": "정오"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  },
+  "3": {
+    "MONDAY": {
+      "1": [
+        {
+          "subject": "음악과생활",
+          "teacher": "용주"
+        }
+      ],
+      "2": [
+        {
+          "subject": "영어IA",
+          "teacher": "소영"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "윤주"
+        }
+      ],
+      "3": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "생명과학IC",
+          "teacher": "정진"
+        },
+        {
+          "subject": "과학B",
+          "teacher": "성조"
+        }
+      ],
+      "4": [
+        {
+          "subject": "영화의이해A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "연극의이해A",
+          "teacher": "주희"
+        },
+        {
+          "subject": "서양조리A",
+          "teacher": "정희"
+        }
+      ],
+      "5": [
+        {
+          "subject": "수학IIA",
+          "teacher": "태영"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "철우"
+        }
+      ],
+      "6": []
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "운동과건강생활",
+          "teacher": "영호"
+        }
+      ],
+      "2": [
+        {
+          "subject": "국어II",
+          "teacher": "원용"
+        }
+      ],
+      "3": [
+        {
+          "subject": "과학A",
+          "teacher": "성조"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "정진"
+        }
+      ],
+      "4": [
+        {
+          "subject": "영어IA",
+          "teacher": "세리"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "윤주"
+        }
+      ],
+      "5": [
+        {
+          "subject": "수학IIA",
+          "teacher": "태영"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "철우"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "화학IB",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "정진"
+        },
+        {
+          "subject": "지구과학I",
+          "teacher": "정하"
+        }
+      ],
+      "2": [
+        {
+          "subject": "진로탐색활동",
+          "teacher": "성진"
+        }
+      ],
+      "3": [
+        {
+          "subject": "한국사",
+          "teacher": "혜영"
+        }
+      ],
+      "4": [
+        {
+          "subject": "수학IIA",
+          "teacher": "태영"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "철우"
+        }
+      ],
+      "5": [
+        {
+          "subject": "국어II",
+          "teacher": "원용"
+        }
+      ],
+      "6": [
+        {
+          "subject": "조리C",
+          "teacher": "정희"
+        }
+      ]
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "한국사",
+          "teacher": "혜영"
+        }
+      ],
+      "2": [
+        {
+          "subject": "수학IIA",
+          "teacher": "태영"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "철우"
+        }
+      ],
+      "3": [
+        {
+          "subject": "미술문화",
+          "teacher": "병재"
+        }
+      ],
+      "4": [
+        {
+          "subject": "영어IA",
+          "teacher": "소영"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "세리"
+        }
+      ],
+      "5": [
+        {
+          "subject": "과학A",
+          "teacher": "성조"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "정진"
+        }
+      ],
+      "6": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "생명과학IC",
+          "teacher": "정진"
+        },
+        {
+          "subject": "과학B",
+          "teacher": "성조"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "화학IB",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "정진"
+        },
+        {
+          "subject": "지구과학I",
+          "teacher": "정하"
+        }
+      ],
+      "2": [
+        {
+          "subject": "달튼랩",
+          "teacher": "윤주"
+        }
+      ],
+      "3": [
+        {
+          "subject": "운동과건강생활",
+          "teacher": "영호"
+        }
+      ],
+      "4": [
+        {
+          "subject": "국어II",
+          "teacher": "원용"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  },
+  "4": {
+    "MONDAY": {
+      "1": [
+        {
+          "subject": "미술문화",
+          "teacher": "병재"
+        }
+      ],
+      "2": [
+        {
+          "subject": "영어IA",
+          "teacher": "소영"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "윤주"
+        }
+      ],
+      "3": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "생명과학IC",
+          "teacher": "정진"
+        },
+        {
+          "subject": "과학B",
+          "teacher": "성조"
+        }
+      ],
+      "4": [
+        {
+          "subject": "영화의이해A",
+          "teacher": "병수"
+        },
+        {
+          "subject": "연극의이해A",
+          "teacher": "주희"
+        },
+        {
+          "subject": "서양조리A",
+          "teacher": "정희"
+        }
+      ],
+      "5": [
+        {
+          "subject": "수학IIA",
+          "teacher": "태영"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "철우"
+        }
+      ],
+      "6": []
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "국어II",
+          "teacher": "원용"
+        }
+      ],
+      "2": [
+        {
+          "subject": "한국사",
+          "teacher": "혜영"
+        }
+      ],
+      "3": [
+        {
+          "subject": "과학A",
+          "teacher": "성조"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "정진"
+        }
+      ],
+      "4": [
+        {
+          "subject": "영어IA",
+          "teacher": "세리"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "윤주"
+        }
+      ],
+      "5": [
+        {
+          "subject": "수학IIA",
+          "teacher": "태영"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "철우"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "화학IB",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "정진"
+        },
+        {
+          "subject": "지구과학I",
+          "teacher": "정하"
+        }
+      ],
+      "2": [
+        {
+          "subject": "운동과건강생활",
+          "teacher": "영호"
+        }
+      ],
+      "3": [
+        {
+          "subject": "국어II",
+          "teacher": "원용"
+        }
+      ],
+      "4": [
+        {
+          "subject": "수학IIA",
+          "teacher": "태영"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "철우"
+        }
+      ],
+      "5": [
+        {
+          "subject": "달튼랩",
+          "teacher": "소영"
+        }
+      ],
+      "6": [
+        {
+          "subject": "조리C",
+          "teacher": "정희"
+        }
+      ]
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "음악과생활",
+          "teacher": "용주"
+        }
+      ],
+      "2": [
+        {
+          "subject": "수학IIA",
+          "teacher": "태영"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "철우"
+        }
+      ],
+      "3": [
+        {
+          "subject": "진로탐색활동",
+          "teacher": "명옥"
+        }
+      ],
+      "4": [
+        {
+          "subject": "영어IA",
+          "teacher": "소영"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "세리"
+        }
+      ],
+      "5": [
+        {
+          "subject": "과학A",
+          "teacher": "성조"
+        },
+        {
+          "subject": "물리IA",
+          "teacher": "승완"
+        },
+        {
+          "subject": "생명과학IB",
+          "teacher": "정진"
+        }
+      ],
+      "6": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "생명과학IC",
+          "teacher": "정진"
+        },
+        {
+          "subject": "과학B",
+          "teacher": "성조"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "화학IB",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학IA",
+          "teacher": "정진"
+        },
+        {
+          "subject": "지구과학I",
+          "teacher": "정하"
+        }
+      ],
+      "2": [
+        {
+          "subject": "국어II",
+          "teacher": "원용"
+        }
+      ],
+      "3": [
+        {
+          "subject": "한국사",
+          "teacher": "혜영"
+        }
+      ],
+      "4": [
+        {
+          "subject": "운동과건강생활",
+          "teacher": "영호"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  },
+  "5": {
+    "MONDAY": {
+      "1": [
+        {
+          "subject": "영어IA",
+          "teacher": "소영"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "윤주"
+        }
+      ],
+      "2": [
+        {
+          "subject": "영화의이해B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "연극의이해B",
+          "teacher": "주희"
+        },
+        {
+          "subject": "서양조리D",
+          "teacher": "정희"
+        }
+      ],
+      "3": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "생명과학IC",
+          "teacher": "정진"
+        },
+        {
+          "subject": "과학B",
+          "teacher": "성조"
+        }
+      ],
+      "4": [
+        {
+          "subject": "수학IIA",
+          "teacher": "보명"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "철우"
+        }
+      ],
+      "5": [
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "생명과학ID",
+          "teacher": "정진"
+        }
+      ],
+      "6": []
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "음악과생활",
+          "teacher": "용주"
+        }
+      ],
+      "2": [
+        {
+          "subject": "국어II",
+          "teacher": "숙재"
+        }
+      ],
+      "3": [
+        {
+          "subject": "영어IA",
+          "teacher": "세리"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "윤주"
+        }
+      ],
+      "4": [
+        {
+          "subject": "운동과건강생활",
+          "teacher": "영호"
+        }
+      ],
+      "5": [
+        {
+          "subject": "과학C",
+          "teacher": "성조"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학IE",
+          "teacher": "정진"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "미술문화",
+          "teacher": "병재"
+        }
+      ],
+      "2": [
+        {
+          "subject": "수학IIA",
+          "teacher": "보명"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "철우"
+        }
+      ],
+      "3": [
+        {
+          "subject": "국어II",
+          "teacher": "숙재"
+        }
+      ],
+      "4": [
+        {
+          "subject": "달튼랩",
+          "teacher": "소영"
+        }
+      ],
+      "5": [
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "생명과학ID",
+          "teacher": "정진"
+        }
+      ],
+      "6": [
+        {
+          "subject": "진로탐색활동",
+          "teacher": "성진"
+        }
+      ]
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "수학IIA",
+          "teacher": "보명"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "철우"
+        }
+      ],
+      "2": [
+        {
+          "subject": "과학C",
+          "teacher": "성조"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학IE",
+          "teacher": "정진"
+        }
+      ],
+      "3": [
+        {
+          "subject": "영어IA",
+          "teacher": "소영"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "세리"
+        }
+      ],
+      "4": [
+        {
+          "subject": "한국사",
+          "teacher": "혜영"
+        }
+      ],
+      "5": [
+        {
+          "subject": "국어II",
+          "teacher": "숙재"
+        }
+      ],
+      "6": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "생명과학IC",
+          "teacher": "정진"
+        },
+        {
+          "subject": "과학B",
+          "teacher": "성조"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "수학IIA",
+          "teacher": "보명"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "철우"
+        }
+      ],
+      "2": [
+        {
+          "subject": "운동과건강생활",
+          "teacher": "영호"
+        }
+      ],
+      "3": [
+        {
+          "subject": "조리E",
+          "teacher": "정희"
+        }
+      ],
+      "4": [
+        {
+          "subject": "한국사",
+          "teacher": "혜영"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  },
+  "6": {
+    "MONDAY": {
+      "1": [
+        {
+          "subject": "영어IA",
+          "teacher": "소영"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "윤주"
+        }
+      ],
+      "2": [
+        {
+          "subject": "영화의이해B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "연극의이해B",
+          "teacher": "주희"
+        },
+        {
+          "subject": "서양조리D",
+          "teacher": "정희"
+        }
+      ],
+      "3": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "생명과학IC",
+          "teacher": "정진"
+        },
+        {
+          "subject": "과학B",
+          "teacher": "성조"
+        }
+      ],
+      "4": [
+        {
+          "subject": "수학IIA",
+          "teacher": "보명"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "철우"
+        }
+      ],
+      "5": [
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "생명과학ID",
+          "teacher": "정진"
+        }
+      ],
+      "6": []
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "미술문화",
+          "teacher": "병재"
+        }
+      ],
+      "2": [
+        {
+          "subject": "운동과건강생활",
+          "teacher": "미진"
+        }
+      ],
+      "3": [
+        {
+          "subject": "영어IA",
+          "teacher": "세리"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "윤주"
+        }
+      ],
+      "4": [
+        {
+          "subject": "국어II",
+          "teacher": "숙재"
+        }
+      ],
+      "5": [
+        {
+          "subject": "과학C",
+          "teacher": "성조"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학IE",
+          "teacher": "정진"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "한국사",
+          "teacher": "성희"
+        }
+      ],
+      "2": [
+        {
+          "subject": "수학IIA",
+          "teacher": "보명"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "철우"
+        }
+      ],
+      "3": [
+        {
+          "subject": "달튼랩",
+          "teacher": "윤주"
+        }
+      ],
+      "4": [
+        {
+          "subject": "국어II",
+          "teacher": "숙재"
+        }
+      ],
+      "5": [
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "생명과학ID",
+          "teacher": "정진"
+        }
+      ],
+      "6": [
+        {
+          "subject": "음악과생활",
+          "teacher": "용주"
+        }
+      ]
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "수학IIA",
+          "teacher": "보명"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "철우"
+        }
+      ],
+      "2": [
+        {
+          "subject": "과학C",
+          "teacher": "성조"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학IE",
+          "teacher": "정진"
+        }
+      ],
+      "3": [
+        {
+          "subject": "영어IA",
+          "teacher": "소영"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "세리"
+        }
+      ],
+      "4": [
+        {
+          "subject": "국어II",
+          "teacher": "숙재"
+        }
+      ],
+      "5": [
+        {
+          "subject": "운동과건강생활",
+          "teacher": "미진"
+        }
+      ],
+      "6": [
+        {
+          "subject": "생활과윤리",
+          "teacher": "인선"
+        },
+        {
+          "subject": "사회문화A",
+          "teacher": "성호"
+        },
+        {
+          "subject": "생명과학IC",
+          "teacher": "정진"
+        },
+        {
+          "subject": "과학B",
+          "teacher": "성조"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "수학IIA",
+          "teacher": "보명"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "철우"
+        }
+      ],
+      "2": [
+        {
+          "subject": "진로탐색활동",
+          "teacher": "명옥"
+        }
+      ],
+      "3": [
+        {
+          "subject": "조리E",
+          "teacher": "정희"
+        }
+      ],
+      "4": [
+        {
+          "subject": "한국사",
+          "teacher": "성희"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  },
+  "7": {
+    "MONDAY": {
+      "1": [
+        {
+          "subject": "운동과건강생활",
+          "teacher": "영호"
+        }
+      ],
+      "2": [
+        {
+          "subject": "영화의이해B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "연극의이해B",
+          "teacher": "주희"
+        },
+        {
+          "subject": "서양조리D",
+          "teacher": "정희"
+        }
+      ],
+      "3": [
+        {
+          "subject": "국어II",
+          "teacher": "숙재"
+        }
+      ],
+      "4": [
+        {
+          "subject": "영어IA",
+          "teacher": "소영"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "윤주"
+        }
+      ],
+      "5": [
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "생명과학ID",
+          "teacher": "정진"
+        }
+      ],
+      "6": []
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "수학IIA",
+          "teacher": "보명"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "태영"
+        }
+      ],
+      "2": [
+        {
+          "subject": "화학ID",
+          "teacher": "정오"
+        }
+      ],
+      "3": [
+        {
+          "subject": "한국사",
+          "teacher": "성희"
+        }
+      ],
+      "4": [
+        {
+          "subject": "달튼랩",
+          "teacher": "소영"
+        }
+      ],
+      "5": [
+        {
+          "subject": "과학C",
+          "teacher": "성조"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학IE",
+          "teacher": "정진"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "수학IIA",
+          "teacher": "보명"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "태영"
+        }
+      ],
+      "2": [
+        {
+          "subject": "영어IA",
+          "teacher": "세리"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "윤주"
+        }
+      ],
+      "3": [
+        {
+          "subject": "진로탐색활동",
+          "teacher": "성진"
+        }
+      ],
+      "4": [
+        {
+          "subject": "한국사",
+          "teacher": "성희"
+        }
+      ],
+      "5": [
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "생명과학ID",
+          "teacher": "정진"
+        }
+      ],
+      "6": [
+        {
+          "subject": "미술문화",
+          "teacher": "병재"
+        }
+      ]
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "운동과건강생활",
+          "teacher": "영호"
+        }
+      ],
+      "2": [
+        {
+          "subject": "과학C",
+          "teacher": "성조"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학IE",
+          "teacher": "정진"
+        }
+      ],
+      "3": [
+        {
+          "subject": "국어II",
+          "teacher": "숙재"
+        }
+      ],
+      "4": [
+        {
+          "subject": "조리F",
+          "teacher": "정희"
+        }
+      ],
+      "5": [
+        {
+          "subject": "수학IIA",
+          "teacher": "보명"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "태영"
+        }
+      ],
+      "6": [
+        {
+          "subject": "화학ID",
+          "teacher": "정오"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "영어IA",
+          "teacher": "소영"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "세리"
+        }
+      ],
+      "2": [
+        {
+          "subject": "음악과생활",
+          "teacher": "용주"
+        }
+      ],
+      "3": [
+        {
+          "subject": "국어II",
+          "teacher": "숙재"
+        }
+      ],
+      "4": [
+        {
+          "subject": "수학IIA",
+          "teacher": "보명"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "태영"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  },
+  "8": {
+    "MONDAY": {
+      "1": [
+        {
+          "subject": "국어II",
+          "teacher": "숙재"
+        }
+      ],
+      "2": [
+        {
+          "subject": "영화의이해B",
+          "teacher": "병수"
+        },
+        {
+          "subject": "연극의이해B",
+          "teacher": "주희"
+        },
+        {
+          "subject": "서양조리D",
+          "teacher": "정희"
+        }
+      ],
+      "3": [
+        {
+          "subject": "운동과건강생활",
+          "teacher": "영호"
+        }
+      ],
+      "4": [
+        {
+          "subject": "영어IA",
+          "teacher": "소영"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "윤주"
+        }
+      ],
+      "5": [
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "생명과학ID",
+          "teacher": "정진"
+        }
+      ],
+      "6": []
+    },
+    "TUESDAY": {
+      "1": [
+        {
+          "subject": "수학IIA",
+          "teacher": "보명"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "태영"
+        }
+      ],
+      "2": [
+        {
+          "subject": "화학ID",
+          "teacher": "정오"
+        }
+      ],
+      "3": [
+        {
+          "subject": "국어II",
+          "teacher": "숙재"
+        }
+      ],
+      "4": [
+        {
+          "subject": "음악과생활",
+          "teacher": "용주"
+        }
+      ],
+      "5": [
+        {
+          "subject": "과학C",
+          "teacher": "성조"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학IE",
+          "teacher": "정진"
+        }
+      ],
+      "6": [
+        {
+          "subject": "자율(자치, 보건) 봉사",
+          "teacher": "담임"
+        }
+      ]
+    },
+    "WEDNESDAY": {
+      "1": [
+        {
+          "subject": "수학IIA",
+          "teacher": "보명"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "태영"
+        }
+      ],
+      "2": [
+        {
+          "subject": "영어IA",
+          "teacher": "세리"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "윤주"
+        }
+      ],
+      "3": [
+        {
+          "subject": "운동과건강생활",
+          "teacher": "영호"
+        }
+      ],
+      "4": [
+        {
+          "subject": "미술문화",
+          "teacher": "병재"
+        }
+      ],
+      "5": [
+        {
+          "subject": "물리IB",
+          "teacher": "승완"
+        },
+        {
+          "subject": "사회문화B",
+          "teacher": "성호"
+        },
+        {
+          "subject": "생명과학ID",
+          "teacher": "정진"
+        }
+      ],
+      "6": [
+        {
+          "subject": "진로탐색활동",
+          "teacher": "명옥"
+        }
+      ]
+    },
+    "THURSDAY": {
+      "1": [
+        {
+          "subject": "달튼랩",
+          "teacher": "소영"
+        }
+      ],
+      "2": [
+        {
+          "subject": "과학C",
+          "teacher": "성조"
+        },
+        {
+          "subject": "화학IC",
+          "teacher": "정오"
+        },
+        {
+          "subject": "생명과학IE",
+          "teacher": "정진"
+        }
+      ],
+      "3": [
+        {
+          "subject": "한국사",
+          "teacher": "성희"
+        }
+      ],
+      "4": [
+        {
+          "subject": "조리F",
+          "teacher": "정희"
+        }
+      ],
+      "5": [
+        {
+          "subject": "수학IIA",
+          "teacher": "보명"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "태영"
+        }
+      ],
+      "6": [
+        {
+          "subject": "화학ID",
+          "teacher": "정오"
+        }
+      ]
+    },
+    "FRIDAY": {
+      "1": [
+        {
+          "subject": "영어IA",
+          "teacher": "소영"
+        },
+        {
+          "subject": "영어IB",
+          "teacher": "세리"
+        }
+      ],
+      "2": [
+        {
+          "subject": "국어II",
+          "teacher": "숙재"
+        }
+      ],
+      "3": [
+        {
+          "subject": "한국사",
+          "teacher": "성희"
+        }
+      ],
+      "4": [
+        {
+          "subject": "수학IIA",
+          "teacher": "보명"
+        },
+        {
+          "subject": "수학IIB",
+          "teacher": "태영"
+        }
+      ],
+      "5": [
+        {
+          "subject": "동아리/행사",
+          "teacher": "담임"
+        }
+      ],
+      "6": []
+    }
+  }
+}
