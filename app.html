@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hangaram Time Table</title>
+  </head>
+  <body>
+
+  <p> Choose! </p>
+  <div id="choose">  </div>
+  <div id="table">  </div>
+
+  <script id="timetable-template" type="text/x-handlebars-template">
+    <table>
+      <thead>
+        <th></th>
+        <th>월</th>
+        <th>화</th>
+        <th>수</th>
+        <th>목</th>
+        <th>금</th>
+      </thead>
+      <tbody>
+        {{#each timetable}}
+        <tr>
+          <th>{{period}}</th>
+          {{#each lesson}}
+          <td>{{subject}}</td>
+          {{/each}}
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </script>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" charset="utf-8"></script>
+  <script src="http://builds.handlebarsjs.com.s3.amazonaws.com/handlebars-v4.0.11.js" charset="utf-8"></script>
+  <script src="transpose-table.js" charset="utf-8"></script>
+  <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
