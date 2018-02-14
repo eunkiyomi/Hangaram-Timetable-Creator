@@ -1,0 +1,20 @@
+<table class="table is-bordered is-striped">
+  <thead>
+    <th></th>
+    <th>월</th>
+    <th>화</th>
+    <th>수</th>
+    <th>목</th>
+    <th>금</th>
+  </thead>
+  <tbody>
+    {{#each timetable}}
+    <tr>
+      <th>{{period}}</th>
+      {{#each lesson}}
+      <td>{{subject}}</td>
+      {{/each}}
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
