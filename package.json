@@ -1,6 +1,6 @@
 {
-  "name": "timetablecreator",
-  "version": "0.1.0",
+  "name": "hgr-timetable",
+  "version": "0.2.0",
   "description": "Hangaram time table creator",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,23 @@
   "author": "ppyap, freezens",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2",
-    "html-table-to-json": "^0.2.1"
-  }
+    "handlebars": "^4.0.11",
+    "handlebars-loader": "^1.6.0",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "webpack": "^3.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PPYAPgit/Hangaram-Timetable-Creator.git"
+  },
+  "keywords": [
+    "hangaram",
+    "timetable"
+  ],
+  "bugs": {
+    "url": "https://github.com/PPYAPgit/Hangaram-Timetable-Creator/issues"
+  },
+  "homepage": "https://github.com/PPYAPgit/Hangaram-Timetable-Creator#readme"
 }
