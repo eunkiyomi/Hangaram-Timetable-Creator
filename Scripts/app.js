@@ -1,7 +1,9 @@
 import $ from "jquery";
 import timetableTpl from "../Templates/timetable.handlebars";
 import subjectButtonTpl from "../Templates/subject-button.handlebars";
-import timetableJSON from "../Resources/timetable1.json";
+import timetable1JSON from "../Resources/timetable1.json";
+import timetable2JSON from "../Resources/timetable2.json";
+import timetable3JSON from "../Resources/timetable3.json";
 import transpose from "./transpose.js"
 
 class Choices {
@@ -54,13 +56,32 @@ class TimetableDataManager {
 }
 
 var OUTPUT = {};
+var cursor, choices;
 
-// 학년, 수업반 선택
-const grade = 1;
-const cursor = new TimetableDataManager(timetableJSON, 1);
-const choices = new Choices(cursor);
+$('#submit-class').click(function(event) {
+  const grade = Number($('#select-grade').val());
+  const auditClass = Number($('#select-audit-class').val());
 
-chooseAndAsk();
+
+  switch (grade) {
+    case 1:
+      cursor = new TimetableDataManager(timetable1JSON, auditClass);
+      break;
+    case 2:
+      cursor = new TimetableDataManager(timetable2JSON, auditClass);
+      break;
+    case 3:
+      cursor = new TimetableDataManager(timetable3JSON, auditClass);
+      break;
+    default: return;
+  }
+
+  choices = new Choices(cursor);
+
+  $(this).prop("disabled", true);
+
+  chooseAndAsk()
+});
 
 function onClickSubject(event) { // 과목 선택 버튼 이벤트 리스너
   const lesson = $(this).data("lesson");
