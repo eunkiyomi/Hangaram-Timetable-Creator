@@ -4,7 +4,9 @@ import subjectButtonTpl from "../Templates/subject-button.handlebars";
 import timetable1JSON from "../Resources/timetable1.json";
 import timetable2JSON from "../Resources/timetable2.json";
 import timetable3JSON from "../Resources/timetable3.json";
-import transpose from "./transpose.js"
+import transpose from "./transpose.js";
+import TableExport from "tableexport";
+import { saveAs } from 'file-saver';
 
 class Choices {
   constructor(cursor) {
@@ -153,6 +155,29 @@ function result() { // 결과를 표시하고 OUTPUT 변수에 저장한다.
   }
 
   $("#table").append(timetableTpl(data));
+  $("#export-excel").click(exportTable);
+  $("#print").click(printTable);
 
-  OUTPUT = arranged;
+  OUTPUT = arranged
+}
+
+function exportTable(event) {
+  const exportManager = $("#table table").tableExport({
+    headers: true,                              // (Boolean), display table headers (th or td elements) in the <thead>, (default: true)
+    footers: true,                              // (Boolean), display table footers (th or td elements) in the <tfoot>, (default: false)
+    formats: ['xlsx'],            // (String[]), filetype(s) for the export, (default: ['xlsx', 'csv', 'txt'])
+    filename: 'Timetable',                             // (id, String), filename for the downloaded file, (default: 'id')
+    bootstrap: false,                           // (Boolean), style buttons using bootstrap, (default: true)
+    exportButtons: false,                        // (Boolean), automatically generate the built-in export buttons for each of the specified formats (default: true)
+    ignoreRows: null,                           // (Number, Number[]), row indices to exclude from the exported file(s) (default: null)
+    ignoreCols: null,                           // (Number, Number[]), column indices to exclude from the exported file(s) (default: null)
+    trimWhitespace: true                        // (Boolean), remove all leading/trailing newlines, spaces, and tabs from cell text in the exported file(s) (default: false)
+  });
+
+  const data = exportManager.getExportData()['tableexport-1']['xlsx'];
+  exportManager.export2file(data.data, data.mimeType, data.filename, data.fileExtension);
+}
+
+function printTable(event) {
+  window.print();
 }
