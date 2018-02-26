@@ -7,6 +7,8 @@ import timetable3JSON from "../Resources/timetable3.json";
 import transpose from "./transpose.js";
 import TableExport from "tableexport";
 
+console.log("he!");
+
 class Choices {
   constructor(cursor) {
     this.cursor = cursor;

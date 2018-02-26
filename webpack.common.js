@@ -10,6 +10,5 @@ module.exports = {
     rules: [
       { test: /\.handlebars$/, loader: "handlebars-loader" }
     ]
-  },
-  devtool: '#inline-source-map'
+  }
 };

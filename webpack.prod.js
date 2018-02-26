@@ -4,7 +4,7 @@ const MinifyPlugin = require("babel-minify-webpack-plugin");
 const common = require('./webpack.common.js');
 module.exports = merge(common, {
   // output: {
-  //   path: path.resolve(__dirname, 'production/dist')
+  //   path: path.resolve(__dirname, 'docs/dist')
   // },
   plugins: [
     new MinifyPlugin()
