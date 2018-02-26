@@ -6,7 +6,6 @@ import timetable2JSON from "../Resources/timetable2.json";
 import timetable3JSON from "../Resources/timetable3.json";
 import transpose from "./transpose.js";
 import TableExport from "tableexport";
-import { saveAs } from 'file-saver';
 
 class Choices {
   constructor(cursor) {
