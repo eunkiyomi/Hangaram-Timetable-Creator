@@ -10,12 +10,30 @@
     <style media="screen">
       * { font-family: 'Spoqa Han Sans', 'Sans-serif'; }
     </style>
+    <style media="print">
+      table {
+        font-family:'Spoqa Han Sans', 'Sans-serif';
+      }
+
+      table.big {
+        width: 150mm;
+      }
+
+      table.small {
+        width: 80mm;
+        font-size: 8pt !important;
+      }
+
+      table.small .teacher {
+        display: none;
+      }
+    </style>
   </head>
   <body>
 
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item" href="/">
+        <a class="navbar-item" href=".">
           <img src="Media/overflow-title.png" alt="Overflow" height="60">
           <h1 class="navbar-item has-text-weight-bold"> Hangaram Timetable Creator </h1>
         </a>
@@ -39,14 +57,14 @@
               </div>
               <div class="select">
                 <select id="select-audit-class">
-                  <option value="1">1반</option>
-                  <option value="2">2반</option>
-                  <option value="3">3반</option>
-                  <option value="4">4반</option>
-                  <option value="5">5반</option>
-                  <option value="6">6반</option>
-                  <option value="7">7반</option>
-                  <option value="8">8반</option>
+                  <option value="1">수업 1반</option>
+                  <option value="2">수업 2반</option>
+                  <option value="3">수업 3반</option>
+                  <option value="4">수업 4반</option>
+                  <option value="5">수업 5반</option>
+                  <option value="6">수업 6반</option>
+                  <option value="7">수업 7반</option>
+                  <option value="8">수업 8반</option>
                 </select>
               </div>
               <button id='submit-class' class="button is-primary">시간표 만들기</button>

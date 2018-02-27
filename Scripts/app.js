@@ -25,8 +25,17 @@ class Choices {
   }
 
   choose(newLesson) {
-    if (!this.includes(newLesson)) { this.choices.push(newLesson); }
+    if (newLesson != Choices.BLANK_LESSON && !this.includes(newLesson)) {
+      this.choices.push(newLesson);
+    }
     this.result[this.cursor.day][this.cursor.period] = newLesson;
+  }
+
+  static get BLANK_LESSON() {
+    return {
+      subject: "공강",
+      teacher: ""
+    };
   }
 }
 
@@ -104,10 +113,7 @@ function chooseAndAsk() { // 메인 루프. 시간표 데이터를 훑으며 Cho
     const lessons = cursor.lessons;
 
     if (lessons.length == 0) { // 과목명이 비어있으면 공강으로 처리
-      choices.choose({
-        subject: "공강",
-        teacher: ""
-      });
+      choices.choose(Choices.BLANK_LESSON);
       continue;
     }
 
@@ -123,13 +129,19 @@ function chooseAndAsk() { // 메인 루프. 시간표 데이터를 훑으며 Cho
         continue;
       }
       else { // 새로운 과목들이면 선택 버튼 만들기
+
         for (const [index, lesson] of lessons.entries()) {
-          const button =
-            $(subjectButtonTpl(lesson))
+          $(subjectButtonTpl(lesson))
             .data( 'lesson', lesson )
             .click( onClickSubject )
             .appendTo( "#choose" );
         }
+
+        $(subjectButtonTpl({ subject: "해당 없음", teacher: "" }))  // '해당 없음' 선택지 추가
+          .data( 'lesson', Choices.BLANK_LESSON )
+          .click( onClickSubject )
+          .appendTo( "#choose" );
+
         break;
       }
     }
@@ -159,6 +171,11 @@ function result() { // 결과를 표시하고 OUTPUT 변수에 저장한다.
   $("#export-excel").click(exportTable);
   $("#print").click(printTable);
 
+  $("#submit-class")
+    .click(refreshPage)
+    .html("다시 만들기")
+    .prop("disabled", false);
+
   OUTPUT = arranged
 }
 
@@ -180,5 +197,17 @@ function exportTable(event) {
 }
 
 function printTable(event) {
+  var printDivSmall = $('#table table').clone().appendTo('html').addClass('small');
+  var printDivBig = $('#table table').clone().appendTo('html').addClass('big');
+
+  $('body').hide();
   window.print();
+
+  $('body').show();
+  printDivSmall.remove();
+  printDivBig.remove();
+}
+
+function refreshPage() {
+  window.location.reload();
 }
