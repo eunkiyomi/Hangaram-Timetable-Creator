@@ -76,6 +76,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * **정은기**
 * **이규현**
+* **박재온**
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
