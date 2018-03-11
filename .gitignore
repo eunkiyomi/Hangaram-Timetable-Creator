@@ -67,4 +67,4 @@ typings/
 .idea
 
 # Distribution directory
-dist/
+dist/bundle.js

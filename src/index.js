@@ -1,78 +1,29 @@
+'use strict';
 import $ from 'jquery';
+import { TableExport } from 'tableexport';
 import timetableTpl from '../Templates/timetable.handlebars';
 import subjectButtonTpl from '../Templates/subject-button.handlebars';
 import timetable1JSON from '../Resources/timetable1.json';
 import timetable2JSON from '../Resources/timetable2.json';
 import timetable3JSON from '../Resources/timetable3.json';
 import transpose from './transpose.js';
-
-console.log('he!');
-
-class Choices {
-  constructor(cursor) {
-    this.cursor = cursor;
-    this.choices = [];
-    this.result = [ [],[],[],[],[] ];
-  }
-
-  includes(newLesson) {
-    const newLessonEquals = function (lesson) {
-      return newLesson.subject === lesson.subject;
-    };
-
-    return this.choices.findIndex( newLessonEquals ) !== -1;
-  }
-
-  choose(newLesson) {
-    if (newLesson !== Choices.BLANK_LESSON && !this.includes(newLesson)) {
-      this.choices.push(newLesson);
-    }
-    this.result[this.cursor.day][this.cursor.period] = newLesson;
-  }
-
-  static get BLANK_LESSON() {
-    return {
-      subject: '공강',
-      teacher: ''
-    };
-  }
-}
-
-class TimetableDataManager {
-  constructor(timetable, auditClass) {
-    this.class = auditClass - 1; // 수업반은 1반부터, index는 0부터
-    this.day = 0;
-    this.period = -1;
-    this.lesson = 0;
-    this.table = timetable[this.class];
-  }
-
-  get lessons() {
-    return this.table[this.day][this.period];
-  }
-
-  isLast() {
-    return this.table[this.day].length - 1 === this.period && this.table.length - 1 === this.day;
-  }
-
-  next() {
-    if (this.table[this.day].length - 1 > this.period) {
-      this.period += 1;
-    } else if (this.table.length - 1 > this.day) {
-      this.period = 0;
-      this.day += 1;
-    }
-    return this;
-  }
-}
+import Choices from "./Choices";
+import TimetableDataManager from "./TimetableDataManager";
 
 let OUTPUT = {};
 let cursor, choices;
 
-$('#submit-class').click(function(event) {
-  const grade = Number($('#select-grade').val());
-  const auditClass = Number($('#select-audit-class').val());
+export const BLANK_LESSON = {
+  subject: '공강',
+  teacher: ''
+};
 
+function onSubmitClass() {
+  const selectGrade = document.getElementById('select-grade');
+  const selectAuditClass = document.getElementById('select-audit-class');
+
+  const grade = Number(selectGrade.options[selectGrade.selectedIndex].value);
+  const auditClass = Number(selectAuditClass.options[selectAuditClass.selectedIndex].value);
 
   switch (grade) {
     case 1:
@@ -84,20 +35,61 @@ $('#submit-class').click(function(event) {
     case 3:
       cursor = new TimetableDataManager(timetable3JSON, auditClass);
       break;
-    default: return;
+    default:
+      return;
   }
 
   choices = new Choices(cursor);
-
-  $(this).prop('disabled', true);
+  this.disabled = true;
 
   chooseAndAsk()
-});
+}
+document.getElementById('submit-class').addEventListener('click', onSubmitClass);
 
-function onClickSubject(event) { // 과목 선택 버튼 이벤트 리스너
-  const lesson = $(this).data('lesson');
+function chooseAndAsk() { // 메인 루프. 시간표 데이터를 훑으며 Choices 객체에 추가하다가 정해지지 않은 게 있으면 선택 버튼을 만든다
+  do {
+    cursor.next();
+    const lessons = cursor.lessons;
+
+    if (lessons.length === 0) { // 과목명이 비어있으면 공강으로 처리
+      choices.choose(BLANK_LESSON);
+    } else if (lessons.length === 1) { // 고를 과목이 없으면 바로 등록
+      choices.choose(lessons[0]);
+    } else {
+      const includesIndex = lessons.findIndex((lesson) => choices.includes(lesson));
+      if (includesIndex !== -1) { // 이미 선택한 적이 있으면 그걸 등록
+        choices.choose(lessons[includesIndex]);
+      }
+      else { // 새로운 과목들이면 선택 버튼 만들기
+        for (const [index, lesson] of lessons.entries()) {
+          $(subjectButtonTpl(lesson))
+              .data( 'lesson', lesson )
+              .click( onClickSubject )
+              .appendTo( '#choose' );
+        }
+
+        $(subjectButtonTpl({ subject: '해당 없음', teacher: '' }))  // '해당 없음' 선택지 추가
+            .data( 'lesson', BLANK_LESSON )
+            .click( onClickSubject )
+            .appendTo( '#choose' );
+
+        break;
+      }
+    }
+  } while (!cursor.isLast());
+
+  if (cursor.isLast()) {
+    result();
+  }
+}
+
+function onClickSubject() { // 과목 선택 버튼 이벤트 리스너
+  const lesson = this.lesson;
   choices.choose(lesson);
-  $('#choose').empty();
+  const choose = document.getElementById("choose");
+  while (choose.firstChild) {
+    choose.removeChild(choose.firstChild);
+  }
 
   if (cursor.isLast()) {
     result();
@@ -106,50 +98,6 @@ function onClickSubject(event) { // 과목 선택 버튼 이벤트 리스너
   }
 }
 
-function chooseAndAsk() { // 메인 루프. 시간표 데이터를 훑으며 Choices 객체에 추가하다가 정해지지 않은 게 있으면 선택 버튼을 만든다
-  do {
-    cursor.next();
-    const lessons = cursor.lessons;
-
-    if (lessons.length === 0) { // 과목명이 비어있으면 공강으로 처리
-      choices.choose(Choices.BLANK_LESSON);
-      continue;
-    }
-
-    else if (lessons.length === 1) { // 고를 과목이 없으면 바로 등록
-      choices.choose(lessons[0]);
-      continue;
-    }
-
-    else {
-      const includesIndex = lessons.findIndex((lesson) => choices.includes(lesson));
-      if (includesIndex !== -1) { // 이미 선택한 적이 있으면 그걸 등록
-        choices.choose(lessons[includesIndex]);
-        continue;
-      }
-      else { // 새로운 과목들이면 선택 버튼 만들기
-
-        for (const [index, lesson] of lessons.entries()) {
-          $(subjectButtonTpl(lesson))
-            .data( 'lesson', lesson )
-            .click( onClickSubject )
-            .appendTo( '#choose' );
-        }
-
-        $(subjectButtonTpl({ subject: '해당 없음', teacher: '' }))  // '해당 없음' 선택지 추가
-          .data( 'lesson', Choices.BLANK_LESSON )
-          .click( onClickSubject )
-          .appendTo( '#choose' );
-
-        break;
-      }
-    }
-  } while (!cursor.isLast())
-
-  if (cursor.isLast()) {
-    result();
-  }
-}
 
 function result() { // 결과를 표시하고 OUTPUT 변수에 저장한다.
   console.log(choices.result);
@@ -178,8 +126,8 @@ function result() { // 결과를 표시하고 OUTPUT 변수에 저장한다.
   OUTPUT = arranged
 }
 
-function exportTable(event) {
-  const exportManager = $('#table').find('table').tableExport({
+function exportTable() {
+  const exportManager = new TableExport(document.getElementById("table"), {
     headers: true,                              // (Boolean), display table headers (th or td elements) in the <thead>, (default: true)
     footers: true,                              // (Boolean), display table footers (th or td elements) in the <tfoot>, (default: false)
     formats: ['xlsx'],            // (String[]), filetype(s) for the export, (default: ['xlsx', 'csv', 'txt'])
@@ -188,21 +136,20 @@ function exportTable(event) {
     exportButtons: false,                        // (Boolean), automatically generate the built-in export buttons for each of the specified formats (default: true)
     ignoreRows: null,                           // (Number, Number[]), row indices to exclude from the exported file(s) (default: null)
     ignoreCols: null,                           // (Number, Number[]), column indices to exclude from the exported file(s) (default: null)
-    trimWhitespace: true                        // (Boolean), remove all leading/trailing newlines, spaces, and tabs from cell text in the exported file(s) (default: false)
+    trimWhitespace: true
   });
 
-  const data = exportManager.getExportData()['tableexport-1']['xlsx'];
+  const data = exportManager.getExportData().table.xlsx;
   exportManager.export2file(data.data, data.mimeType, data.filename, data.fileExtension);
 }
 
-function printTable(event) {
-  const printDivSmall = $('#table').find('table').clone().appendTo('html').addClass('small');
-  const printDivBig = $('#table').find('table').clone().appendTo('html').addClass('big');
-
-  $('body').hide();
+function printTable() {
+  const table = $('#table');
+  const printDivSmall = table.clone().appendTo('html').addClass('small');
+  const printDivBig = table.clone().appendTo('html').addClass('big');
+  document.body.style.display = 'none';
   window.print();
-
-  $('body').show();
+  document.body.style.display = 'block';
   printDivSmall.remove();
   printDivBig.remove();
 }

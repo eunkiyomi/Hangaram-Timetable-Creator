@@ -33,6 +33,8 @@
     "build": "webpack --config webpack.prod.js"
   },
   "dependencies": {
+    "bulma": "^0.6.2",
+    "jquery": "^3.3.1",
     "tableexport": "^5.0.0"
   },
   "devDependencies": {
@@ -42,7 +44,6 @@
     "babel-minify-webpack-plugin": "^0.3.0",
     "handlebars": "^4.0.11",
     "handlebars-loader": "github:Waavi/handlebars-loader",
-    "jquery": "^3.3.1",
     "serve-static": "^1.13.2",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.11",

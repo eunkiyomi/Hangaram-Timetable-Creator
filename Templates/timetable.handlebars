@@ -1,22 +1,24 @@
 <table class="table is-bordered is-striped">
-  <thead>
-    <th></th>
-    <th>월</th>
-    <th>화</th>
-    <th>수</th>
-    <th>목</th>
-    <th>금</th>
-  </thead>
-  <tbody>
-    {{#each timetable}}
+    <thead>
     <tr>
-      <th>{{period}}</th>
-      {{#each lesson}}
-      <td>{{subject}}<span class="teacher">({{teacher}})</span></td>
-      {{/each}}
+        <th></th>
+        <th>월</th>
+        <th>화</th>
+        <th>수</th>
+        <th>목</th>
+        <th>금</th>
     </tr>
+    </thead>
+    <tbody>
+    {{#each timetable}}
+        <tr>
+            <th>{{period}}</th>
+            {{#each lesson}}
+                <td>{{subject}}<span class="teacher">({{teacher}})</span></td>
+            {{/each}}
+        </tr>
     {{/each}}
-  </tbody>
+    </tbody>
 </table>
 
 <button id='export-excel' class="button is-link is-rounded">엑셀로 내보내기</button>
