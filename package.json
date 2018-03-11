@@ -1,37 +1,52 @@
 {
   "name": "hgr-timetable",
   "version": "0.2.0",
-  "description": "Hangaram time table creator",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "webpack-dev-server --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+  "description": "Automatic timetable creator for students of Hangaram High School.",
+  "keyword": [
+    "Hangaram",
+    "timetable"
+  ],
+  "homepage": "https://github.com/PPYAPgit/Hangaram-Timetable-Creator#readme",
+  "bugs": {
+    "url": "https://github.com/PPYAPgit/Hangaram-Timetable-Creator/issues"
   },
-  "author": "ppyap, freezens",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
-    "babel-loader": "^7.1.4",
-    "babel-minify-webpack-plugin": "^0.3.0",
-    "handlebars": "^4.0.11",
-    "handlebars-loader": "^1.6.0",
-    "jquery": "^3.3.1",
-    "serve-static": "^1.13.2",
-    "webpack": "^4.1.1",
-    "webpack-cli": "^2.0.11"
+  "author": {
+    "name": "PPYAP"
   },
+  "contributors": [
+    {
+      "name": "freezens"
+    },
+    {
+      "name": "Final Child",
+      "email": "finalchild@ourmc.space"
+    }
+  ],
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PPYAPgit/Hangaram-Timetable-Creator.git"
   },
-  "keywords": [
-    "hangaram",
-    "timetable"
-  ],
-  "bugs": {
-    "url": "https://github.com/PPYAPgit/Hangaram-Timetable-Creator/issues"
+  "scripts": {
+    "start": "webpack-serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
-  "homepage": "https://github.com/PPYAPgit/Hangaram-Timetable-Creator#readme"
+  "dependencies": {
+    "tableexport": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "babel-loader": "^8.0.0-beta.0",
+    "babel-minify-webpack-plugin": "^0.3.0",
+    "handlebars": "^4.0.11",
+    "handlebars-loader": "github:Waavi/handlebars-loader",
+    "jquery": "^3.3.1",
+    "serve-static": "^1.13.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11",
+    "webpack-merge": "^4.1.2",
+    "webpack-serve": "^0.2.0"
+  }
 }

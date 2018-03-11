@@ -1,13 +1,12 @@
-import $ from "jquery";
-import timetableTpl from "../Templates/timetable.handlebars";
-import subjectButtonTpl from "../Templates/subject-button.handlebars";
-import timetable1JSON from "../Resources/timetable1.json";
-import timetable2JSON from "../Resources/timetable2.json";
-import timetable3JSON from "../Resources/timetable3.json";
-import transpose from "./transpose.js";
-import TableExport from "tableexport";
+import $ from 'jquery';
+import timetableTpl from '../Templates/timetable.handlebars';
+import subjectButtonTpl from '../Templates/subject-button.handlebars';
+import timetable1JSON from '../Resources/timetable1.json';
+import timetable2JSON from '../Resources/timetable2.json';
+import timetable3JSON from '../Resources/timetable3.json';
+import transpose from './transpose.js';
 
-console.log("he!");
+console.log('he!');
 
 class Choices {
   constructor(cursor) {
@@ -25,7 +24,7 @@ class Choices {
   }
 
   choose(newLesson) {
-    if (newLesson != Choices.BLANK_LESSON && !this.includes(newLesson)) {
+    if (newLesson !== Choices.BLANK_LESSON && !this.includes(newLesson)) {
       this.choices.push(newLesson);
     }
     this.result[this.cursor.day][this.cursor.period] = newLesson;
@@ -33,8 +32,8 @@ class Choices {
 
   static get BLANK_LESSON() {
     return {
-      subject: "공강",
-      teacher: ""
+      subject: '공강',
+      teacher: ''
     };
   }
 }
@@ -53,7 +52,7 @@ class TimetableDataManager {
   }
 
   isLast() {
-    return this.table[this.day].length - 1 == this.period && this.table.length - 1 == this.day;
+    return this.table[this.day].length - 1 === this.period && this.table.length - 1 === this.day;
   }
 
   next() {
@@ -67,8 +66,8 @@ class TimetableDataManager {
   }
 }
 
-var OUTPUT = {};
-var cursor, choices;
+let OUTPUT = {};
+let cursor, choices;
 
 $('#submit-class').click(function(event) {
   const grade = Number($('#select-grade').val());
@@ -90,15 +89,15 @@ $('#submit-class').click(function(event) {
 
   choices = new Choices(cursor);
 
-  $(this).prop("disabled", true);
+  $(this).prop('disabled', true);
 
   chooseAndAsk()
 });
 
 function onClickSubject(event) { // 과목 선택 버튼 이벤트 리스너
-  const lesson = $(this).data("lesson");
+  const lesson = $(this).data('lesson');
   choices.choose(lesson);
-  $("#choose").empty();
+  $('#choose').empty();
 
   if (cursor.isLast()) {
     result();
@@ -112,19 +111,19 @@ function chooseAndAsk() { // 메인 루프. 시간표 데이터를 훑으며 Cho
     cursor.next();
     const lessons = cursor.lessons;
 
-    if (lessons.length == 0) { // 과목명이 비어있으면 공강으로 처리
+    if (lessons.length === 0) { // 과목명이 비어있으면 공강으로 처리
       choices.choose(Choices.BLANK_LESSON);
       continue;
     }
 
-    else if (lessons.length == 1) { // 고를 과목이 없으면 바로 등록
+    else if (lessons.length === 1) { // 고를 과목이 없으면 바로 등록
       choices.choose(lessons[0]);
       continue;
     }
 
     else {
       const includesIndex = lessons.findIndex((lesson) => choices.includes(lesson));
-      if (includesIndex != -1) { // 이미 선택한 적이 있으면 그걸 등록
+      if (includesIndex !== -1) { // 이미 선택한 적이 있으면 그걸 등록
         choices.choose(lessons[includesIndex]);
         continue;
       }
@@ -134,13 +133,13 @@ function chooseAndAsk() { // 메인 루프. 시간표 데이터를 훑으며 Cho
           $(subjectButtonTpl(lesson))
             .data( 'lesson', lesson )
             .click( onClickSubject )
-            .appendTo( "#choose" );
+            .appendTo( '#choose' );
         }
 
-        $(subjectButtonTpl({ subject: "해당 없음", teacher: "" }))  // '해당 없음' 선택지 추가
+        $(subjectButtonTpl({ subject: '해당 없음', teacher: '' }))  // '해당 없음' 선택지 추가
           .data( 'lesson', Choices.BLANK_LESSON )
           .click( onClickSubject )
-          .appendTo( "#choose" );
+          .appendTo( '#choose' );
 
         break;
       }
@@ -165,22 +164,22 @@ function result() { // 결과를 표시하고 OUTPUT 변수에 저장한다.
 
   const data = {
     timetable: arranged
-  }
+  };
 
-  $("#table").append(timetableTpl(data));
-  $("#export-excel").click(exportTable);
-  $("#print").click(printTable);
+  $('#table').append(timetableTpl(data));
+  $('#export-excel').click(exportTable);
+  $('#print').click(printTable);
 
-  $("#submit-class")
+  $('#submit-class')
     .click(refreshPage)
-    .html("다시 만들기")
-    .prop("disabled", false);
+    .html('다시 만들기')
+    .prop('disabled', false);
 
   OUTPUT = arranged
 }
 
 function exportTable(event) {
-  const exportManager = $("#table table").tableExport({
+  const exportManager = $('#table').find('table').tableExport({
     headers: true,                              // (Boolean), display table headers (th or td elements) in the <thead>, (default: true)
     footers: true,                              // (Boolean), display table footers (th or td elements) in the <tfoot>, (default: false)
     formats: ['xlsx'],            // (String[]), filetype(s) for the export, (default: ['xlsx', 'csv', 'txt'])
@@ -197,8 +196,8 @@ function exportTable(event) {
 }
 
 function printTable(event) {
-  var printDivSmall = $('#table table').clone().appendTo('html').addClass('small');
-  var printDivBig = $('#table table').clone().appendTo('html').addClass('big');
+  const printDivSmall = $('#table').find('table').clone().appendTo('html').addClass('small');
+  const printDivBig = $('#table').find('table').clone().appendTo('html').addClass('big');
 
   $('body').hide();
   window.print();

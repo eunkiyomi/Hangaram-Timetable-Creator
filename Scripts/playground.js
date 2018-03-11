@@ -1,4 +1,4 @@
-var lessons = [
+const lessons = [
   {
     "subject": "수학IIA",
     "teacher": "태영"
