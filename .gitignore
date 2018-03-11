@@ -65,3 +65,6 @@ typings/
 
 # WebStorm configuration directory
 .idea
+
+# Distribution directory
+dist/
