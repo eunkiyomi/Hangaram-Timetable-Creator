@@ -9,7 +9,7 @@ export default class Choices {
   }
 
   includes(newLesson) {
-    return this.choices.findIndex(lesson => lesson.subject === newLesson.subject);
+    return this.choices.findIndex(lesson => lesson.subject === newLesson.subject) !== -1;
   }
 
   choose(newLesson) {
