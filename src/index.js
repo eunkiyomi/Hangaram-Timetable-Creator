@@ -47,34 +47,37 @@ function onSubmitClass() {
 document.getElementById('submit-class').addEventListener('click', onSubmitClass);
 
 function chooseAndAsk() { // 메인 루프. 시간표 데이터를 훑으며 Choices 객체에 추가하다가 정해지지 않은 게 있으면 선택 버튼을 만든다
-  do {
+  loop:do {
     cursor.next();
     const lessons = cursor.lessons;
+    console.log(lessons);
 
-    if (lessons.length === 0) { // 과목명이 비어있으면 공강으로 처리
-      choices.choose(BLANK_LESSON);
-    } else if (lessons.length === 1) { // 고를 과목이 없으면 바로 등록
-      choices.choose(lessons[0]);
-    } else {
-      const includesIndex = lessons.findIndex((lesson) => choices.includes(lesson));
-      if (includesIndex !== -1) { // 이미 선택한 적이 있으면 그걸 등록
-        choices.choose(lessons[includesIndex]);
-      }
-      else { // 새로운 과목들이면 선택 버튼 만들기
-        for (const [index, lesson] of lessons.entries()) {
-          $(subjectButtonTpl(lesson))
-              .data( 'lesson', lesson )
+    switch(lessons.length) {
+      case 0:
+        choices.choose(BLANK_LESSON);
+        break;
+      case 1:
+        choices.choose(lessons[0]); // TODO: 선택 과목 목록을 미리 적어 두고, 이에 해당하면 선택지를 보이자.
+        break;
+      default:
+        const includesIndex = lessons.findIndex(lesson => choices.includes(lesson));
+        if (includesIndex !== -1) { // 이미 선택한 적이 있으면 그걸 등록
+          choices.choose(lessons[includesIndex]);
+        } else { // 새로운 과목들이면 선택 버튼 만들기
+          for (const [index, lesson] of lessons.entries()) {
+            $(subjectButtonTpl(lesson))
+                .data( 'lesson', lesson )
+                .click( onClickSubject )
+                .appendTo( '#choose' );
+          }
+
+          $(subjectButtonTpl({ subject: '해당 없음', teacher: '' }))  // '해당 없음' 선택지 추가
+              .data( 'lesson', BLANK_LESSON )
               .click( onClickSubject )
               .appendTo( '#choose' );
+
+          break loop;
         }
-
-        $(subjectButtonTpl({ subject: '해당 없음', teacher: '' }))  // '해당 없음' 선택지 추가
-            .data( 'lesson', BLANK_LESSON )
-            .click( onClickSubject )
-            .appendTo( '#choose' );
-
-        break;
-      }
     }
   } while (!cursor.isLast());
 
@@ -84,7 +87,7 @@ function chooseAndAsk() { // 메인 루프. 시간표 데이터를 훑으며 Cho
 }
 
 function onClickSubject() { // 과목 선택 버튼 이벤트 리스너
-  const lesson = this.lesson;
+  const lesson = $(this).data('lesson');
   choices.choose(lesson);
   const choose = document.getElementById("choose");
   while (choose.firstChild) {
