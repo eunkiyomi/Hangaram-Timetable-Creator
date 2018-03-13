@@ -14,8 +14,8 @@ export default class Choices {
     }
 
     includesNot(newLesson) {
-        // TODO: 물리IA를 선택한 경우 물리IB도 includesNot으로 취급.`
-        return this.notChoices.findIndex(lesson => lesson.subject === newLesson.subject) !== 1;
+        // TODO: 물리IA를 선택한 경우 물리IB도 includesNot으로 취급.
+        return this.notChoices.findIndex(lesson => lesson.subject === newLesson.subject) !== -1;
     }
 
     choose(newLesson) {

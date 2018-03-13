@@ -66,17 +66,23 @@ function chooseAndAsk() { // 메인 루프. 시간표 데이터를 훑으며 Cho
             // fall-through if the lesson's optional
             default:
                 const includesIndex = lessons.findIndex(lesson => choices.includes(lesson));
-                const includesNotIndex = lessons.findIndex(lesson => choices.includesNot(lesson));
                 if (includesIndex !== -1) { // 이미 선택한 적이 있으면 그걸 등록
                     choices.choose(lessons[includesIndex]);
                 } else { // 새로운 과목들이면 선택 버튼 만들기
+                    let existChoices = false;
                     for (const [index, lesson] of lessons.entries()) {
                         if (!choices.includesNot(lesson)) {
                             $(subjectButtonTpl(lesson))
                                 .data( 'lesson', lesson )
                                 .click( onClickSubject )
                                 .appendTo( '#choose' );
+                            existChoices = true;
                         }
+                    }
+
+                    if (!existChoices) {
+                        choices.choose(BLANK_LESSON);
+                        continue;
                     }
 
                     $(subjectButtonTpl({ subject: '해당 없음', teacher: '' }))  // '해당 없음' 선택지 추가
