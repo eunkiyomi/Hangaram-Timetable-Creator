@@ -46,8 +46,5 @@ export function isSameSubjectWithDifferentClassIdentifier(a, b) {
 }
 
 export function getRawSubjectWithoutClassIdentifier(subject) {
-    console.log(subject);
-    console.log(subject.charAt(subject.length - 1))
-    console.log(subject.charAt(subject.length - 1).match(/^A-Z$/))
-    return subject.charAt(subject.length - 1).match(/^A-Z$/) ? subject.substring(0, subject.length - 1) : subject;
+    return /^[A-Z]$/.test(subject.charAt(subject.length - 1)) ? subject.substring(0, subject.length - 1) : subject;
 }

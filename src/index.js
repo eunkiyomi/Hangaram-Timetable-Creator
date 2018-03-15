@@ -1,12 +1,12 @@
 'use strict';
 import $ from 'jquery';
 import { TableExport } from 'tableexport';
-import timetableTpl from '../Templates/timetable.handlebars';
-import subjectButtonTpl from '../Templates/subject-button.handlebars';
-import timetable1JSON from '../Resources/timetable1.json';
-import timetable2JSON from '../Resources/timetable2.json';
-import timetable3JSON from '../Resources/timetable3.json';
-import optionalLessons from '../Resources/optional_lessons.json';
+import timetableTpl from '../dist/template/timetable.handlebars';
+import subjectButtonTpl from '../dist/template/subject-button.handlebars';
+import timetable1JSON from '../dist/resource/timetable1.json';
+import timetable2JSON from '../dist/resource/timetable2.json';
+import timetable3JSON from '../dist/resource/timetable3.json';
+import optionalLessons from '../dist/resource/optional_lessons.json';
 import transpose from './transpose.js';
 import Choices, {getRawSubjectWithoutClassIdentifier} from "./Choices";
 import TimetableCursor from "./TimetableCursor";
@@ -142,14 +142,17 @@ function result() { // 결과를 표시하고 OUTPUT 변수에 저장한다.
         timetable: arranged
     };
 
+    $('#audit-class-control')
+        .append('<button class="button is-primary">다시 만들기</button>')
+        .click(refreshPage);
+
     $('#table').append(timetableTpl(data));
     $('#export-excel').click(exportTable);
     $('#print').click(printTable);
 
-    $('#submit-class')
-        .click(refreshPage)
-        .html('다시 만들기')
-        .prop('disabled', false);
+    $('#select-grade').hide();
+    $('#select-audit-class').hide();
+    $('#submit-class').hide();
 
     OUTPUT = arranged
 }
