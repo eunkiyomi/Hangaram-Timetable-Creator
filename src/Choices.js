@@ -1,3 +1,4 @@
+'use strict';
 import {BLANK_LESSON} from "./index";
 
 export default class Choices {
@@ -5,7 +6,7 @@ export default class Choices {
     constructor(cursor) {
         this.cursor = cursor;
         this.choices = [];
-        this.notChoices = []; // 버려진 과목들
+        this.choicesNot = []; // 버려진 과목들
         this.result = [ [],[],[],[],[] ];
     }
 
@@ -14,8 +15,11 @@ export default class Choices {
     }
 
     includesNot(newLesson) {
-        // TODO: 물리IA를 선택한 경우 물리IB도 includesNot으로 취급.
-        return this.notChoices.findIndex(lesson => lesson.subject === newLesson.subject) !== -1;
+        if (this.choicesNot.findIndex(lesson => lesson.subject === newLesson.subject) !== -1) {
+            return true;
+        }
+
+        return this.choices.findIndex(lesson => isSameSubjectWithDifferentClassIdentifier(lesson.subject, newLesson.subject)) !== -1;
     }
 
     choose(newLesson) {
@@ -25,4 +29,25 @@ export default class Choices {
         this.result[this.cursor.day][this.cursor.period] = newLesson;
     }
 
+    chooseNot(newLesson) {
+        if (newLesson !== BLANK_LESSON && !this.includesNot(newLesson)) {
+            this.choicesNot.push(newLesson);
+        }
+    }
+
+}
+
+export function isSameSubjectWithDifferentClassIdentifier(a, b) {
+    if (a === b) {
+        return false;
+    }
+
+    return getRawSubjectWithoutClassIdentifier(a) === getRawSubjectWithoutClassIdentifier(b);
+}
+
+export function getRawSubjectWithoutClassIdentifier(subject) {
+    console.log(subject);
+    console.log(subject.charAt(subject.length - 1))
+    console.log(subject.charAt(subject.length - 1).match(/^A-Z$/))
+    return subject.charAt(subject.length - 1).match(/^A-Z$/) ? subject.substring(0, subject.length - 1) : subject;
 }

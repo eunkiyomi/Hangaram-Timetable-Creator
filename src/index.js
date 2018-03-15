@@ -8,8 +8,8 @@ import timetable2JSON from '../Resources/timetable2.json';
 import timetable3JSON from '../Resources/timetable3.json';
 import optionalLessons from '../Resources/optional_lessons.json';
 import transpose from './transpose.js';
-import Choices from "./Choices";
-import TimetableDataManager from "./TimetableDataManager";
+import Choices, {getRawSubjectWithoutClassIdentifier} from "./Choices";
+import TimetableCursor from "./TimetableCursor";
 
 let OUTPUT = {};
 let cursor, choices;
@@ -30,13 +30,13 @@ function onSubmitClass() {
 
     switch (grade) {
         case 1:
-            cursor = new TimetableDataManager(timetable1JSON, auditClass);
+            cursor = new TimetableCursor(timetable1JSON, auditClass);
             break;
         case 2:
-            cursor = new TimetableDataManager(timetable2JSON, auditClass);
+            cursor = new TimetableCursor(timetable2JSON, auditClass);
             break;
         case 3:
-            cursor = new TimetableDataManager(timetable3JSON, auditClass);
+            cursor = new TimetableCursor(timetable3JSON, auditClass);
             break;
         default:
             return;
@@ -59,7 +59,7 @@ function chooseAndAsk() { // 메인 루프. 시간표 데이터를 훑으며 Cho
                 choices.choose(BLANK_LESSON);
                 break;
             case 1:
-                if (!optionalLessons[grade - 1].includes(lessons[0].lesson)) {
+                if (!optionalLessons[grade - 1].includes(getRawSubjectWithoutClassIdentifier(lessons[0].subject))) {
                     choices.choose(lessons[0]);
                     break;
                 }
@@ -67,7 +67,14 @@ function chooseAndAsk() { // 메인 루프. 시간표 데이터를 훑으며 Cho
             default:
                 const includesIndex = lessons.findIndex(lesson => choices.includes(lesson));
                 if (includesIndex !== -1) { // 이미 선택한 적이 있으면 그걸 등록
-                    choices.choose(lessons[includesIndex]);
+                    for (let i = 0; i < lessons.length; i++) {
+                        if (i !== includesIndex) {
+                            choices.chooseNot(lessons[i])
+                        } else {
+                            choices.choose(lessons[i])
+                        }
+                    }
+
                 } else { // 새로운 과목들이면 선택 버튼 만들기
                     let existChoices = false;
                     for (const [index, lesson] of lessons.entries()) {
@@ -103,6 +110,12 @@ function chooseAndAsk() { // 메인 루프. 시간표 데이터를 훑으며 Cho
 function onClickSubject() { // 과목 선택 버튼 이벤트 리스너
     const lesson = $(this).data('lesson');
     choices.choose(lesson);
+    cursor.lessons.forEach(e => {
+        if (e.subject !== lesson.subject) {
+            choices.chooseNot(e);
+        }
+    });
+
     const choose = document.getElementById("choose");
     while (choose.firstChild) {
         choose.removeChild(choose.firstChild);

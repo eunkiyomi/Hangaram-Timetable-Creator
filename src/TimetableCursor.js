@@ -1,4 +1,4 @@
-export default class TimetableDataManager {
+export default class TimetableCursor {
 
     constructor(timetable, auditClass) {
         this.day = 0;
