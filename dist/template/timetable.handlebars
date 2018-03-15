@@ -14,7 +14,7 @@
         <tr>
             <th>{{period}}</th>
             {{#each lesson}}
-                <td>{{subject}}<span class="teacher">({{teacher}})</span></td>
+                <td>{{subject}}{{#if teacher}}<span class="teacher">({{teacher}})</span>{{/if}}</td>
             {{/each}}
         </tr>
     {{/each}}
