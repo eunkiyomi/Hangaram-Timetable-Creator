@@ -33,20 +33,21 @@
     "build": "webpack --config webpack.prod.js"
   },
   "dependencies": {
-    "bulma": "^0.6.2",
+    "bulma": "^0.7.1",
     "jquery": "^3.3.1",
-    "tableexport": "^5.0.0"
+    "tableexport": "^5.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.40",
-    "@babel/preset-env": "^7.0.0-beta.40",
-    "babel-loader": "^8.0.0-beta.2",
-    "babel-minify-webpack-plugin": "^0.3.0",
+    "@babel/core": "^7.0.0-rc.1",
+    "@babel/preset-env": "^7.0.0-rc.1",
+    "babel-loader": "^8.0.0-beta.4",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "css-loader": "^1.0.0",
     "handlebars": "^4.0.11",
     "handlebars-loader": "github:Waavi/handlebars-loader",
-    "webpack": "^4.1.1",
-    "webpack-cli": "^2.0.11",
-    "webpack-merge": "^4.1.2",
-    "webpack-serve": "^0.2.0"
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-merge": "^4.1.4",
+    "webpack-serve": "^2.0.2"
   }
 }

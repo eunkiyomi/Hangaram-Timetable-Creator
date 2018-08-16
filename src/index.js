@@ -18,7 +18,9 @@ let grade = -1;
 
 export const BLANK_LESSON = {
     subject: '공강',
-    teacher: ''
+    teacher: '',
+    room: '',
+    empty: true
 };
 
 function onSubmitClass() {
@@ -52,7 +54,15 @@ document.getElementById('submit-class').addEventListener('click', onSubmitClass)
 function chooseAndAsk() { // 메인 루프. 시간표 데이터를 훑으며 Choices 객체에 추가하다가 정해지지 않은 게 있으면 선택 버튼을 만든다
     loop:do {
         cursor.next();
-        const lessons = cursor.lessons;
+        const lessons = cursor.lessons.map(e => {
+            if (e.subject.includes('자율')) {
+                return {
+                    ...e,
+                    subject: '자율'
+                }
+            }
+            return e;
+        });
 
         switch(lessons.length) {
             case 0:
@@ -69,9 +79,9 @@ function chooseAndAsk() { // 메인 루프. 시간표 데이터를 훑으며 Cho
                 if (includesIndex !== -1) { // 이미 선택한 적이 있으면 그걸 등록
                     for (let i = 0; i < lessons.length; i++) {
                         if (i !== includesIndex) {
-                            choices.chooseNot(lessons[i])
+                            choices.chooseNot(lessons[i]);
                         } else {
-                            choices.choose(lessons[i])
+                            choices.choose(lessons[i]);
                         }
                     }
 
@@ -152,13 +162,15 @@ function result() { // 결과를 표시하고 OUTPUT 변수에 저장한다.
 
     $('#select-grade').hide();
     $('#select-audit-class').hide();
+    $('.select').hide();
     $('#submit-class').hide();
+
 
     OUTPUT = arranged
 }
 
 function exportTable() {
-    const exportManager = new TableExport(document.getElementById("table"), {
+    const exportManager = new TableExport(document.getElementById('table'), {
         headers: true,                              // (Boolean), display table headers (th or td elements) in the <thead>, (default: true)
         footers: true,                              // (Boolean), display table footers (th or td elements) in the <tfoot>, (default: false)
         formats: ['xlsx'],            // (String[]), filetype(s) for the export, (default: ['xlsx', 'csv', 'txt'])
