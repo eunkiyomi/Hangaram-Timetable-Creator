@@ -26,7 +26,10 @@ export default class Choices {
         if (newLesson !== BLANK_LESSON && !this.includes(newLesson)) {
             this.choices.push(newLesson);
         }
-        this.result[this.cursor.day][this.cursor.period] = newLesson;
+        this.result[this.cursor.day][this.cursor.period] = {
+            ...newLesson,
+            subject: getRawSubjectWithoutClassIdentifier(newLesson.subject)
+        };
     }
 
     chooseNot(newLesson) {
@@ -46,5 +49,5 @@ export function isSameSubjectWithDifferentClassIdentifier(a, b) {
 }
 
 export function getRawSubjectWithoutClassIdentifier(subject) {
-    return /^[A-Z]$/.test(subject.charAt(subject.length - 1)) ? subject.substring(0, subject.length - 1) : subject;
+    return /^[A-H]$/.test(subject.charAt(subject.length - 1)) ? subject.substring(0, subject.length - 1) : subject;
 }
