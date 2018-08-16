@@ -168,7 +168,7 @@ function result() { // 결과를 표시하고 OUTPUT 변수에 저장한다.
 }
 
 function printTable() {
-    const table = $('#table');
+    const table = $('#table table');
     const printDivSmall = table.clone().appendTo('html').addClass('small');
     const printDivBig = table.clone().appendTo('html').addClass('big');
     document.body.style.display = 'none';
