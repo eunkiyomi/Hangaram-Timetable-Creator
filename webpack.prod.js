@@ -3,8 +3,8 @@ const MinifyPlugin = require('babel-minify-webpack-plugin');
 const common = require('./webpack.common');
 
 module.exports = merge(common, {
-  mode: 'production',
-  plugins: [
-    new MinifyPlugin()
-  ]
+    mode: 'production',
+    plugins: [
+        new MinifyPlugin()
+    ]
 });
