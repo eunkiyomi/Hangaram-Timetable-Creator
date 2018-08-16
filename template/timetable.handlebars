@@ -1,0 +1,24 @@
+<table class="table is-bordered is-striped">
+    <thead>
+    <tr>
+        <th></th>
+        <th>월</th>
+        <th>화</th>
+        <th>수</th>
+        <th>목</th>
+        <th>금</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each timetable}}
+        <tr>
+            <th>{{period}}</th>
+            {{#each lesson}}
+                <td {{#if empty}}style="background-color: #9197b5;"{{/if}}>{{subject}}{{#if teacher}}<br><span class="teacher">{{teacher}}</span>{{/if}}{{#if room}}<br><span class="room">{{room}}</span>{{/if}}</td>
+            {{/each}}
+        </tr>
+    {{/each}}
+    </tbody>
+</table>
+
+<button id='print' class="button is-link is-rounded">프린트</button>
