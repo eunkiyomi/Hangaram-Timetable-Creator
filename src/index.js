@@ -5,22 +5,15 @@ import subjectButtonTpl from '../dist/template/subject-button.handlebars';
 import timetable1JSON from '../dist/resource/timetable1.json';
 import timetable2JSON from '../dist/resource/timetable2.json';
 import timetable3JSON from '../dist/resource/timetable3.json';
-import optionalLessons from '../dist/resource/optional_lessons.json';
-import transpose from './transpose.js';
-import Choices, {getRawSubjectWithoutClassIdentifier} from "./Choices";
-import TimetableCursor from "./TimetableCursor";
+import optionalLessons from '../dist/resource/optional_subjects.json';
+import Choices from './Choices';
+import TimetableCursor from './TimetableCursor';
+import {BLANK_LESSON, getRawSubjectWithoutClassIdentifier, transpose} from './util';
 
 let OUTPUT = {};
 let cursor, choices;
 
 let grade = -1;
-
-export const BLANK_LESSON = {
-    subject: '공강',
-    teacher: '',
-    room: '',
-    empty: true
-};
 
 function onSubmitClass() {
     const selectGrade = document.getElementById('select-grade');
@@ -53,7 +46,7 @@ document.getElementById('submit-class').addEventListener('click', onSubmitClass)
 function chooseAndAsk() { // 메인 루프. 시간표 데이터를 훑으며 Choices 객체에 추가하다가 정해지지 않은 게 있으면 선택 버튼을 만든다
     loop:do {
         cursor.next();
-        const lessons = cursor.lessons.map(e => {
+        const lessons = cursor.getLessons().map(e => {
             if (e.subject.includes('자율')) {
                 return {
                     ...e,
@@ -63,7 +56,7 @@ function chooseAndAsk() { // 메인 루프. 시간표 데이터를 훑으며 Cho
             return e;
         });
 
-        switch(lessons.length) {
+        switch (lessons.length) {
             case 0:
                 choices.choose(BLANK_LESSON);
                 break;
@@ -119,13 +112,13 @@ function chooseAndAsk() { // 메인 루프. 시간표 데이터를 훑으며 Cho
 function onClickSubject() { // 과목 선택 버튼 이벤트 리스너
     const lesson = $(this).data('lesson');
     choices.choose(lesson);
-    cursor.lessons.forEach(e => {
+    cursor.getLessons().forEach(e => {
         if (e.subject !== lesson.subject) {
             choices.chooseNot(e);
         }
     });
 
-    const choose = document.getElementById("choose");
+    const choose = document.getElementById('choose');
     while (choose.firstChild) {
         choose.removeChild(choose.firstChild);
     }

@@ -7,7 +7,7 @@ export default class TimetableCursor {
         this.table = timetable[auditClass - 1];
     }
 
-    get lessons() {
+    getLessons() {
         return this.table[this.day][this.period];
     }
 

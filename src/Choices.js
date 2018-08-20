@@ -1,5 +1,5 @@
 'use strict';
-import {BLANK_LESSON} from "./index";
+import {BLANK_LESSON, getRawSubjectWithoutClassIdentifier, isSameSubjectWithDifferentClassIdentifier} from './util';
 
 export default class Choices {
 
@@ -38,16 +38,4 @@ export default class Choices {
         }
     }
 
-}
-
-export function isSameSubjectWithDifferentClassIdentifier(a, b) {
-    if (a === b) {
-        return false;
-    }
-
-    return getRawSubjectWithoutClassIdentifier(a) === getRawSubjectWithoutClassIdentifier(b);
-}
-
-export function getRawSubjectWithoutClassIdentifier(subject) {
-    return /^[A-H]$/.test(subject.charAt(subject.length - 1)) ? subject.substring(0, subject.length - 1) : subject;
 }
