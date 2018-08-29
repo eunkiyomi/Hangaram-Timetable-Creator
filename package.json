@@ -38,14 +38,14 @@
     "jquery": "^3.3.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-rc.1",
-    "@babel/preset-env": "^7.0.0-rc.1",
-    "babel-loader": "^8.0.0-beta.4",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.0",
     "babel-minify-webpack-plugin": "^0.3.1",
     "css-loader": "^1.0.0",
     "handlebars": "^4.0.11",
     "handlebars-loader": "github:Waavi/handlebars-loader",
-    "webpack": "^4.16.5",
+    "webpack": "^4.17.1",
     "webpack-cli": "^3.1.0",
     "webpack-merge": "^4.1.4",
     "webpack-serve": "^2.0.2"
